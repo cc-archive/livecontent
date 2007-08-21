@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="icon_theme" mtime="1184714346" type="string">
+                <stringvalue>Fedora</stringvalue>
+        </entry>
+        <entry name="gtk_theme" mtime="1184714346" type="string">
+                <stringvalue>Clearlooks</stringvalue>
+        </entry>
+        <entry name="gtk_color_scheme" mtime="1184722159" type="string">
+                <stringvalue>fg_color:#000000000000
+bg_color:#edede9e9e3e3
+text_color:#000000000000
+base_color:#ffffffffffff
+selected_fg_color:#ffffffffffff
+selected_bg_color:#446555d04e26</stringvalue>
+        </entry>
+</gconf>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" oor:name="Common" oor:package="org.openoffice.Office">
+ <node oor:name="Internal">
+  <prop oor:name="CurrentTempURL" oor:type="xs:string">
+   <value/>
+  </prop>
+ </node>
+ <node oor:name="Misc">
+  <prop oor:name="FirstRun" oor:type="xs:boolean">
+   <value>false</value>
+  </prop>
+ </node>
+ <node oor:name="History">
+  <node oor:name="List">
+   <node oor:name="h0" oor:op="replace">
+    <prop oor:name="Filter" oor:type="xs:string">
+     <value>writer8</value>
+    </prop>
+    <prop oor:name="Password" oor:type="xs:string">
+     <value/>
+    </prop>
+    <prop oor:name="Title" oor:type="xs:string">
+     <value>mailing label example</value>
+    </prop>
+    <prop oor:name="URL" oor:type="xs:string">
+     <value>file:///home/cc/Document%20Templates/mailing%20label%20example.odt</value>
+    </prop>
+   </node>
+   <node oor:name="h1" oor:op="replace">
+    <prop oor:name="Filter" oor:type="xs:string">
+     <value>writer8</value>
+    </prop>
+    <prop oor:name="Password" oor:type="xs:string">
+     <value/>
+    </prop>
+    <prop oor:name="Title" oor:type="xs:string">
+     <value>book label example</value>
+    </prop>
+    <prop oor:name="URL" oor:type="xs:string">
+     <value>file:///media/LITTLE%20GUY/liveCD%20test%20content%20v1.2/Open%20document%20label%20templates/book%20label%20example.odt</value>
+    </prop>
+   </node>
+  </node>
+  <node oor:name="PickList">
+   <node oor:name="p0" oor:op="replace">
+    <prop oor:name="Filter" oor:type="xs:string">
+     <value>writer8</value>
+    </prop>
+    <prop oor:name="Password" oor:type="xs:string">
+     <value/>
+    </prop>
+    <prop oor:name="Title" oor:type="xs:string">
+     <value>mailing label example</value>
+    </prop>
+    <prop oor:name="URL" oor:type="xs:string">
+     <value>file:///home/cc/Document%20Templates/mailing%20label%20example.odt</value>
+    </prop>
+   </node>
+   <node oor:name="p1" oor:op="replace">
+    <prop oor:name="Filter" oor:type="xs:string">
+     <value>writer8</value>
+    </prop>
+    <prop oor:name="Password" oor:type="xs:string">
+     <value/>
+    </prop>
+    <prop oor:name="Title" oor:type="xs:string">
+     <value>book label example</value>
+    </prop>
+    <prop oor:name="URL" oor:type="xs:string">
+     <value>file:///media/LITTLE%20GUY/liveCD%20test%20content%20v1.2/Open%20document%20label%20templates/book%20label%20example.odt</value>
+    </prop>
+   </node>
+  </node>
+ </node>
+</oor:component-data>

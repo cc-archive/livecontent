@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="always_use_location_entry" mtime="1184802610" type="bool" value="true">
+        </entry>
+        <entry name="navigation_window_saved_maximized" mtime="1184977847" type="bool" value="false">
+        </entry>
+        <entry name="navigation_window_saved_geometry" mtime="1184891706" type="string">
+                <stringvalue>720x540+358+102</stringvalue>
+        </entry>
+        <entry name="click_policy" mtime="1184293065" type="string">
+                <stringvalue>single</stringvalue>
+        </entry>
+</gconf>

@@ -1,0 +1,127 @@
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Applications</Name>
+	<MergeFile type="parent">/etc/xdg/menus/applications.menu</MergeFile>
+	<Exclude>
+		<Filename>pirut.desktop</Filename>
+	</Exclude>
+	<AppDir>/home/cc/.local/share/applications</AppDir>
+	<Include>
+		<Filename>Install to Hard Drive.desktop</Filename>
+	</Include>
+	<Menu>
+		<Name>Office</Name>
+		<Include>
+			<Filename>alacarte-made.desktop</Filename>
+		</Include>
+		<Exclude>
+			<Filename>gnome-invest-chart.desktop</Filename>
+		</Exclude>
+		<AppDir>/home/cc/.local/share/applications</AppDir>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>gnome-invest-chart.desktop</Filename>
+			<Filename>openoffice.org-1.9-writer.desktop</Filename>
+			<Filename>openoffice.org-1.9-calc.desktop</Filename>
+			<Filename>openoffice.org-1.9-impress.desktop</Filename>
+			<Separator/>
+			<Filename>alacarte-made.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+		<Include>
+			<Filename>openoffice.org-1.9-impress.desktop</Filename>
+		</Include>
+	</Menu>
+	<Menu>
+		<Name>Graphics</Name>
+		<Include>
+			<Filename>evince.desktop</Filename>
+		</Include>
+		<AppDir>/home/cc/.local/share/applications</AppDir>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>evince-usercustom.desktop</Filename>
+			<Filename>fedora-inkscape.desktop</Filename>
+			<Filename>gimp-2.2.desktop</Filename>
+			<Filename>gthumb.desktop</Filename>
+			<Filename>evince.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Multimedia</Name>
+		<Exclude>
+			<Filename>gnome-cd.desktop</Filename>
+		</Exclude>
+		<AppDir>/home/cc/.local/share/applications</AppDir>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>totem.desktop</Filename>
+			<Filename>gnome-cd.desktop</Filename>
+			<Filename>jokosher.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>System Tools</Name>
+		<Exclude>
+			<Filename>pup.desktop</Filename>
+		</Exclude>
+		<AppDir>/home/cc/.local/share/applications</AppDir>
+		<Include>
+			<Filename>pirut.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>Text Editor.desktop</Filename>
+		</Include>
+		<Exclude>
+			<Filename>redhat-authconfig.desktop</Filename>
+		</Exclude>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>pirut.desktop</Filename>
+			<Filename>Text Editor.desktop</Filename>
+			<Filename>redhat-authconfig.desktop</Filename>
+			<Filename>system-config-date.desktop</Filename>
+			<Filename>redhat-usermount.desktop</Filename>
+			<Filename>gnome-nautilus.desktop</Filename>
+			<Filename>system-config-securitylevel.desktop</Filename>
+			<Filename>liveinst.desktop</Filename>
+			<Filename>system-config-keyboard.desktop</Filename>
+			<Filename>gnome-gkbd-indicator-plugins-capplet.desktop</Filename>
+			<Filename>system-config-language.desktop</Filename>
+			<Filename>redhat-neat.desktop</Filename>
+			<Filename>redhat-neat-control.desktop</Filename>
+			<Filename>gdmflexiserver.desktop</Filename>
+			<Filename>system-install-packages.desktop</Filename>
+			<Filename>pup.desktop</Filename>
+			<Filename>system-config-soundcard.desktop</Filename>
+			<Filename>gnome-terminal.desktop</Filename>
+			<Filename>system-config-users.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Accessories</Name>
+		<DirectoryDir>/home/cc/.local/share/desktop-directories</DirectoryDir>
+	</Menu>
+	<Layout>
+		<Merge type="menus"/>
+		<Menuname>Accessories</Menuname>
+		<Menuname>Education</Menuname>
+		<Menuname>Internet</Menuname>
+		<Menuname>Games</Menuname>
+		<Menuname>Office</Menuname>
+		<Menuname>Multimedia</Menuname>
+		<Menuname>Graphics</Menuname>
+		<Menuname>Other</Menuname>
+		<Menuname>Development</Menuname>
+		<Menuname>System Tools</Menuname>
+		<Separator/>
+		<Filename>pirut.desktop</Filename>
+		<Filename>Install to Hard Drive.desktop</Filename>
+		<Merge type="files"/>
+	</Layout>
+</Menu>

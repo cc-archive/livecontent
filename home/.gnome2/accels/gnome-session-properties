@@ -1,0 +1,7 @@
+; gnome-session-properties GtkAccelMap rc-file         -*- scheme -*-
+; this file is an automated accelerator map dump
+;
+; (gtk_accel_path "<gnome-session-properties>/-Orphan/Settings" "")
+; (gtk_accel_path "<gnome-session-properties>/-Orphan/Normal" "")
+; (gtk_accel_path "<gnome-session-properties>/-Orphan/Trash" "")
+; (gtk_accel_path "<gnome-session-properties>/-Orphan/Restart" "")

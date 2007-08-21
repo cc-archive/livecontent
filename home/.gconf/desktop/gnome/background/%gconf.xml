@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="primary_color" mtime="1184804913" type="string">
+                <stringvalue>#8A94C6</stringvalue>
+        </entry>
+        <entry name="secondary_color" mtime="1184804913" type="string">
+                <stringvalue>#687096</stringvalue>
+        </entry>
+        <entry name="color_shading_type" mtime="1184804913" type="string">
+                <stringvalue>vertical-gradient</stringvalue>
+        </entry>
+        <entry name="picture_options" mtime="1184804913" type="string">
+                <stringvalue>stretched</stringvalue>
+        </entry>
+        <entry name="picture_filename" mtime="1184804913" type="string">
+                <stringvalue>/home/cc/desktop.png</stringvalue>
+        </entry>
+</gconf>

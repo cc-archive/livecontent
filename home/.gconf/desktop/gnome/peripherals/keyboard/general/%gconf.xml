@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="update_handlers" mtime="1184713545" type="list" ltype="string">
+                <li type="string">
+                        <stringvalue>.xmodmap</stringvalue>
+                </li>
+        </entry>
+        <entry name="known_file_list" mtime="1184713531" type="list" ltype="string">
+                <li type="string">
+                        <stringvalue>.xmodmap</stringvalue>
+                </li>
+        </entry>
+</gconf>

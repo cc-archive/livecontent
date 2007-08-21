@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=No name
+Encoding=UTF-8
+Version=1.0
+Name[en_US]=remove hdd install
+Exec=rm /home/cc/Desktop/liveinst.desktop
+X-GNOME-Autostart-enabled=true

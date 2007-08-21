@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+import os
+import time
+os.system("clear")
+for i in range(30):
+    print
+
+center = 40
+credits = open("/home/cc/.credits","r")
+for line in credits.readlines():
+    print " "*(center-len(line)/2) + line.strip()
+    time.sleep(0.5)
+
+for i in range(30):
+    print
+    time.sleep(0.5)

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="history-gedit2_search_for_entry" mtime="1184977421" type="list" ltype="string">
+                <li type="string">
+                        <stringvalue>header-main</stringvalue>
+                </li>
+                <li type="string">
+                        <stringvalue>Other</stringvalue>
+                </li>
+                <li type="string">
+                        <stringvalue>toolbar</stringvalue>
+                </li>
+        </entry>
+</gconf>

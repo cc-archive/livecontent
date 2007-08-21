@@ -1,0 +1,16 @@
+
+
+
+
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name[en_US]=Open Document Templates
+Terminal=false
+Exec=nautilus /home/cc/Document\\ Templates/
+Comment[en_US]=Public domain document templates.
+Icon[en_US]=/usr/share/pixmaps/gnome-folder.png
+Name=Document Templates
+Comment=Public domain document templates.
+Icon=/usr/share/pixmaps/redhat-office.png

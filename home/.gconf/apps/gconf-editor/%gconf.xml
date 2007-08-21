@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="recents" mtime="1184972340" type="list" ltype="string">
+                <li type="string">
+                        <stringvalue>/apps/panel/applets/applet_3/panel_right_stick</stringvalue>
+                </li>
+                <li type="string">
+                        <stringvalue>/apps/panel/applets/applet_1/position</stringvalue>
+                </li>
+                <li type="string">
+                        <stringvalue>/apps/panel/applets/applet_0/panel_right_stick</stringvalue>
+                </li>
+        </entry>
+</gconf>

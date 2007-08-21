@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<session>
+  <history>
+    <bookmark name="CD/DVD Creator" icon="nautilus-cd-burner" uri="burn:"/>
+    <bookmark name="Audio" icon="/home/cc/.icons/cc-music.svg" uri="file:///home/cc/Desktop/Audio"/>
+    <bookmark name="Antony Raijekov - See U" icon="gnome-fs-directory" uri="file:///home/cc/Desktop/Audio/Antony%20Raijekov%20-%20See%20U"/>
+    <bookmark name="Education" icon="/home/cc/.icons/cc-education.svg" uri="file:///home/cc/Desktop/Education"/>
+    <bookmark name="Text" icon="/home/cc/.icons/cc-text.svg" uri="file:///home/cc/Desktop/Text"/>
+    <bookmark name="Image" icon="/home/cc/.icons/cc-image.svg" uri="file:///home/cc/Desktop/Image"/>
+    <bookmark name="Video" icon="/home/cc/.icons/cc-video.svg" uri="file:///home/cc/Desktop/Video"/>
+    <bookmark name="ZAM'S - Accords et &#xFFFD;mes" icon="gnome-fs-directory" uri="file:///home/cc/Desktop/Audio/ZAM'S%20-%20Accords%20et%20%C2mes"/>
+    <bookmark name="Distimia - Cuando la ciudad duerme" icon="gnome-fs-directory" uri="file:///home/cc/Desktop/Audio/Distimia%20-%20Cuando%20la%20ciudad%20duerme"/>
+    <bookmark name="Document Templates" icon="gnome-fs-directory" uri="file:///home/cc/Document%20Templates/"/>
+    <bookmark name="cc" icon="user-home" uri="file:///home/cc"/>
+  </history>
+</session>

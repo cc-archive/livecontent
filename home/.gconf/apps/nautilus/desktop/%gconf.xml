@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="trash_icon_visible" mtime="1184289078" type="bool" value="false">
+        </entry>
+        <entry name="computer_icon_visible" mtime="1184289070" type="bool" value="false">
+        </entry>
+        <entry name="home_icon_visible" mtime="1184289060" type="bool" value="false">
+        </entry>
+</gconf>

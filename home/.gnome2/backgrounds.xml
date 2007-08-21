@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper deleted="false">
+    <name>Flying High Wide</name>
+    <filename>/usr/share/backgrounds/images/default-wide.jpg</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#FFFFFF</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>No Wallpaper</name>
+    <filename>(none)</filename>
+    <options>stretched</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>#8A94C6</pcolor>
+    <scolor>#687096</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Blast of Red</name>
+    <filename>/usr/share/backgrounds/images/tiny_blast_of_red.jpg</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#FFFFFF</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Blue Swirl</name>
+    <filename>/usr/share/backgrounds/tiles/default_blue.jpg</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#FFFFFF</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Earth from Space</name>
+    <filename>/usr/share/backgrounds/images/earth_from_space.jpg</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#FFFFFF</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Blue Type</name>
+    <filename>/usr/share/backgrounds/tiles/blue_type.png</filename>
+    <options>wallpaper</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#FFFFFF</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>desktop-2-grn.svg</name>
+    <filename>/home/cc/desktop-2-grn.svg</filename>
+    <options>stretched</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>#8A94C6</pcolor>
+    <scolor>#687096</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Flying High at 5:4 Aspect Ratio</name>
+    <filename>/usr/share/backgrounds/images/default-5_4.jpg</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#FFFFFF</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Flower Garden</name>
+    <filename>/usr/share/backgrounds/images/flowers_and_leaves.jpg</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#FFFFFF</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Flying High</name>
+    <filename>/usr/share/backgrounds/images/default.jpg</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#FFFFFF</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Ladybugs</name>
+    <filename>/usr/share/backgrounds/images/ladybugs.jpg</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#FFFFFF</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Stone Bird</name>
+    <filename>/usr/share/backgrounds/images/stone_bird.jpg</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#FFFFFF</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>desktop.png</name>
+    <filename>/home/cc/desktop.png</filename>
+    <options>stretched</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>#8A94C6</pcolor>
+    <scolor>#687096</scolor>
+  </wallpaper>
+</wallpapers>

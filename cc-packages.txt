@@ -1,0 +1,52 @@
+# dictionaries are big
+-aspell-*
+-m17n-db-*
+-man-pages-*
+# gimp help is huge
+-gimp-help
+# lose the compat stuff
+-compat*
+
+# space sucks
+-gnome-user-docs
+-specspo
+-esc
+-samba-client
+-a2ps
+-vino
+-redhat-lsb
+-sox
+-tomboy
+
+# smartcards won't really work on the livecd.  and we _need_ space
+-coolkey
+-ccid
+
+# duplicate functionality
+-pinfo
+-vorbis-tools
+-wget
+
+
+# scanning takes quite a bit of space :/
+-xsane
+-xsane-gimp
+
+# while hplip requires pyqt, it has to go
+-hplip
+
+# added games
+#monkey-bubble
+#ppracer
+
+# we don't include @office so that we don't get OOo.  but some nice bits
+#gnome-blog
+#planner
+
+# lots of people want...
+
+# livecd bits to set up the livecd and be able to install
+
+# make sure debuginfo doesn't end up on the live image
+-*debuginfo
+-fedora-logos
