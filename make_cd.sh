@@ -49,24 +49,24 @@ then
 fi
 
 # Step 6: Wrap all this up into a tar file
-cd "$RPM_WORK"
+cd "$RPM_WORK/home-tar"
 tar -czf "$WORK/cc-home.tar.gz" .
 
 # Step 7: Copy that to the evil redhat SOURCES directory
 #         and annotate the spec
 cp "$WORK/cc-home.tar.gz" /usr/src/redhat/SOURCES/cc-home.tar.gz
-echo "/home/" >> tmp-cc-home.spec
-echo "/etc/" >> tmp-cc-home.spec
-echo "/usr/" >> tmp-cc-home.spec
+echo "/home/" >> cc-home.spec
+echo "/etc/" >> cc-home.spec
+echo "/usr/" >> cc-home.spec
 
 # Step 7a: if there was a grub splash, add those files too
 if [ "$5" != "" ]
 then
-	echo "/boot/" >> tmp-cc-home.spec
+	echo "/boot/" >> cc-home.spec
 fi
 
 # Step 8: Actually build the RPM
-rpmbuild -bb tmp-cc-home.spec
+rpmbuild -bb cc-home.spec
 
 # Step 9: Put the RPM into 
 REPO_WORK="$WORK/repo/"
