@@ -5,42 +5,76 @@ then
 	exit 1
 fi
 
-echo "Building rpm."
-cp cc-home.spec tmp-cc-home.spec
-mkdir -p /tmp/home-tar/home/cc
-cd /tmp/home-tar/home/cc
-tar -mxzf ../../../../$2
-cd /tmp/home-tar
+ORIGPWD="$PWD"
+
+WORK="/tmp/cc-livecontent-$$/"
+echo "Going to make a mess in $WORK."
+mkdir -p "$WORK"
+
+echo "Building rpm"
+
+RPM_WORK="$WORK/home-rpm/"
+mkdir -p "$RPM_WORK"
+
+# Step 1: Copy the spec
+cp cc-home.spec "$RPM_WORK/cc-home.spec"
+
+# Step 2: Make space for, and then unpack, the $HOME
+mkdir -p "$RPM_WORK/home-tar/home/cc"
+pushd "$RPM_WORK/home-tar/home/cc"
+tar -mxzf "$ORIGPWD/$2"
+
+# Step 3: Jam in the init scripts and the roll_credits program
+pushd "$RPM_WORK/home-tar"
 mkdir -p ./etc/rc.d/init.d
-cp ../../$3 ./etc/rc.d/init.d/cc-live
+cp "$ORIGPWD/$3" ./etc/rc.d/init.d/cc-live
 chmod 755 ./etc/rc.d/init.d/cc-live
 #cp ../../.credits home/cc/
 mkdir -p usr/bin
-cp ../../roll_credits usr/bin/
+cp "$ORIGPWD/roll_credits" usr/bin/
 chmod +x usr/bin/roll_credits
-if [ $4 != "" ]
+
+# Step 4: Optional: set up the anaconda-runtime splash (?)
+if [ "$4" != "" ]
 then
 	mkdir -p usr/lib/anaconda-runtime/
 	cp ../../$4 usr/lib/anaconda-runtime/splash.jpg
 fi
-if [ $5 != "" ]
+
+# Step 5: Optional: set up the grub splash!
+if [ "$5" != "" ]
 then
 	mkdir -p boot/grub
 	cp ../../$5 boot/grub/new_splash.xpm.gz
 fi
-tar -czf cc-home.tar.gz *
-mv cc-home.tar.gz ../
-cd /
-cp /tmp/cc-home.tar.gz /usr/src/redhat/SOURCES/cc-home.tar.gz
+
+# Step 6: Wrap all this up into a tar file
+cd "$RPM_WORK"
+tar -czf "$WORK/cc-home.tar.gz" .
+
+# Step 7: Copy that to the evil redhat SOURCES directory
+#         and annotate the spec
+cp "$WORK/cc-home.tar.gz" /usr/src/redhat/SOURCES/cc-home.tar.gz
 echo "/home/" >> tmp-cc-home.spec
 echo "/etc/" >> tmp-cc-home.spec
 echo "/usr/" >> tmp-cc-home.spec
-if [ $5 != "" ]
+
+# Step 7a: if there was a grub splash, add those files too
+if [ "$5" != "" ]
 then
 	echo "/boot/" >> tmp-cc-home.spec
 fi
+
+# Step 8: Actually build the RPM
 rpmbuild -bb tmp-cc-home.spec
-cp /usr/src/redhat/RPMS/i386/*.rpm /tmp/cc-livecd/
+
+# Step 9: Put the RPM into 
+REPO_WORK="$WORK/repo/"
+mkdir -p "$REPO_WORK"
+
+# FIXME: Don't get *all* RPMs - what's ours called?
+cp /usr/src/redhat/RPMS/i386/*.rpm "$REPO_WORK"
+
 echo "Fetching new rpms."
 while read -r line
 do
