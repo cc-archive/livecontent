@@ -10,29 +10,34 @@ ORIGPWD="$PWD"
 WORK="/tmp/cc-livecontent-$$/"
 echo "Going to make a mess in $WORK."
 mkdir -p "$WORK"
+cd "$WORK"
 
 echo "Building rpm"
 
-RPM_WORK="$WORK/home-rpm/"
+RPM_WORK="$WORK/rpmbuild/"
+RPM_TREE="$RPM_WORK/tree"
 mkdir -p "$RPM_WORK"
+mkdir -p "$RPM_TREE"
 
-# Step 1: Copy the spec
-cp cc-home.spec "$RPM_WORK/cc-home.spec"
+# Step 1: Copy the spec to RPM_WORK
+cp "$ORIGPWD/cc-home.spec" "$RPM_WORK/cc-home.spec"
 
 # Step 2: Make space for, and then unpack, the $HOME
-mkdir -p "$RPM_WORK/home-tar/home/cc"
-pushd "$RPM_WORK/home-tar/home/cc"
+HOME_WORK="$WORK/home-build"
+mkdir -p "$HOME_WORK/home/cc"
+
+pushd "$HOME_WORK/home/cc"
 tar -mxzf "$ORIGPWD/$2"
+popd
 
 # Step 3: Jam in the init scripts and the roll_credits program
-pushd "$RPM_WORK/home-tar"
-mkdir -p ./etc/rc.d/init.d
-cp "$ORIGPWD/$3" ./etc/rc.d/init.d/cc-live
-chmod 755 ./etc/rc.d/init.d/cc-live
+mkdir -p "$HOME_WORK/etc/rc.d/init.d"
+cp "$ORIGPWD/$3" "$HOME_WORK/etc/rc.d/init.d/cc-live"
+chmod 755 "$HOME_WORK/etc/rc.d/init.d/cc-live"
 #cp ../../.credits home/cc/
-mkdir -p usr/bin
-cp "$ORIGPWD/roll_credits" usr/bin/
-chmod +x usr/bin/roll_credits
+mkdir -p "$HOME_WORK/usr/bin"
+cp "$ORIGPWD/roll_credits" "$HOME_WORK/usr/bin/"
+chmod +x "$HOME_WORK/usr/bin/roll_credits"
 
 # Step 4: Optional: set up the anaconda-runtime splash (?)
 if [ "$4" != "" ]
@@ -49,24 +54,28 @@ then
 fi
 
 # Step 6: Wrap all this up into a tar file
-cd "$RPM_WORK/home-tar"
+pushd "$HOME_WORK"
 tar -czf "$WORK/cc-home.tar.gz" .
+popd
 
 # Step 7: Copy that to the evil redhat SOURCES directory
 #         and annotate the spec
-cp "$WORK/cc-home.tar.gz" /usr/src/redhat/SOURCES/cc-home.tar.gz
-echo "/home/" >> cc-home.spec
-echo "/etc/" >> cc-home.spec
-echo "/usr/" >> cc-home.spec
+sudo cp "$WORK/cc-home.tar.gz" /usr/src/redhat/SOURCES/cc-home.tar.gz
+echo "/home/" >> "$RPM_WORK/cc-home.spec"
+echo "/etc/" >> "$RPM_WORK/cc-home.spec"
+echo "/usr/" >> "$RPM_WORK/cc-home.spec"
 
 # Step 7a: if there was a grub splash, add those files too
 if [ "$5" != "" ]
 then
-	echo "/boot/" >> cc-home.spec
+	echo "/boot/" >> "$RPM_WORK/cc-home.spec"
 fi
 
 # Step 8: Actually build the RPM
-rpmbuild -bb cc-home.spec
+#bash
+pushd "$RPM_WORK"
+sudo rpmbuild -bb "$RPM_WORK/cc-home.spec"
+popd
 
 # Step 9: Put the RPM into 
 REPO_WORK="$WORK/repo/"
@@ -101,4 +110,3 @@ echo "Estimating total size."
 echo "Building CD."
 livecd-creator --config cc-livecd.ks --fslabel=ccLiveContent-1.0
 echo "Removing temp directories."
-rm -rf /tmp/home-tar
