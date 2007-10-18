@@ -81,8 +81,8 @@ popd
 REPO_WORK="$WORK/repo/"
 mkdir -p "$REPO_WORK"
 
-# FIXME: Don't get *all* RPMs - what's ours called?
-cp /usr/src/redhat/RPMS/i386/*.rpm "$REPO_WORK"
+# Preferably grab only the latest-generated RPM.
+cp /usr/src/redhat/RPMS/i386/cc-home*.rpm "$REPO_WORK"
 
 echo "Fetching new rpms."
 while read -r line
