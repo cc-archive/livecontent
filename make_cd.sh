@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/bash -xe
 if [ $# -lt 3 ]
 then
 	echo "Too few arguments. Three are needed.  The first is the kickstart config file and the second a .tar.gz of cc's home directory. The third is an init script to be run when the cd boots up."
