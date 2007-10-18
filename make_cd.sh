@@ -73,8 +73,8 @@ fi
 
 # Step 8: Actually build the RPM
 #bash
-pushd "$RPM_WORK"
-sudo rpmbuild -bb "$RPM_WORK/cc-home.spec"
+pushd "$RPM_TREE"
+sudo rpmbuild -bb  "$RPM_WORK/cc-home.spec"
 popd
 
 # Step 9: Put the RPM into 
