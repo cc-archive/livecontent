@@ -84,29 +84,28 @@ mkdir -p "$REPO_WORK"
 # Preferably grab only the latest-generated RPM.
 cp /usr/src/redhat/RPMS/i386/cc-home*.rpm "$REPO_WORK"
 
-echo "Fetching new rpms."
-while read -r line
-do
-	echo -e "\tGetting $line:"
-	if ls /tmp/cc-livecd/$line-?.* > /dev/null
-	then
-		echo "Already found, won't update."
-	else
-		repotrack -p /tmp/cc-livecd $line
-	fi
-done < $1;
+cd "$REPO_WORK"
+#echo "Fetching new rpms."
+#while read -r line
+#do
+#	echo -e "\tGetting $line:"
+#	if ls "$REPO_WORK"/$line-?.* > /dev/null 2>/dev/null
+#	then
+#		echo "Already found, won't update."
+#	else
+#		repotrack -p "$REPO_WORK" $line
+#	fi
+#done < "$ORIGPWD/$1";
 echo "Creating the repo."
 wget http://download.fedora.redhat.com/pub/fedora/linux/releases/7/Everything/i386/os/repodata/comps-f7.xml
-cp comps-f7.xml /tmp/cc-livecd/
-createrepo --update -g comps-f7.xml /tmp/cc-livecd/
-rm comps-f7.xml
+createrepo --update -g comps-f7.xml "$REPO_WORK"
 
 echo "Making kickstart file."
-cp cc-livecd-template.ks cc-livecd.ks
-cat $1 >> cc-livecd.ks
-cat cc-packages.txt >> cc-livecd.ks
+cp "$ORIGPWD/cc-livecd-template.ks" cc-livecd.ks
+cat "$ORIGPWD/$1" >> cc-livecd.ks
+cat "$ORIGPWD/cc-packages.txt" >> cc-livecd.ks
 echo "cc-home" >> cc-livecd.ks
 echo "Estimating total size."
 echo "Building CD."
-livecd-creator --config cc-livecd.ks --fslabel=ccLiveContent-1.0
+sudo livecd-creator --config cc-livecd.ks --fslabel=ccLiveContent-1.0
 echo "Removing temp directories."
