@@ -1,4 +1,8 @@
 #! /bin/bash -xe
+
+## FIXME:
+## rename cc-pcakges, packages-cc to whtielist, blacklist
+
 if [ $# -lt 3 ]
 then
 	echo "Too few arguments. Three are needed.  The first is the kickstart config file and the second a .tar.gz of cc's home directory. The third is an init script to be run when the cd boots up."
@@ -7,7 +11,9 @@ fi
 
 ORIGPWD="$PWD"
 
-WORK="/tmp/cc-livecontent-$$/"
+mkdir -p /var/tmp/cc-live/ # NOTE: Evil, lame path.
+
+WORK="/var/tmp/cc-livecontent-$$/"
 echo "Going to make a mess in $WORK."
 mkdir -p "$WORK"
 cd "$WORK"
@@ -85,17 +91,18 @@ mkdir -p "$REPO_WORK"
 cp /usr/src/redhat/RPMS/i386/cc-home*.rpm "$REPO_WORK"
 
 cd "$REPO_WORK"
-#echo "Fetching new rpms."
-#while read -r line
-#do
-#	echo -e "\tGetting $line:"
-#	if ls "$REPO_WORK"/$line-?.* > /dev/null 2>/dev/null
-#	then
-#		echo "Already found, won't update."
-#	else
-#		repotrack -p "$REPO_WORK" $line
-#	fi
-#done < "$ORIGPWD/$1";
+echo "Fetching new rpms."
+repotrack -p "$REPO_WORK" $(cat $ORIGPWD/packages-cc.txt | grep -v '^#' | grep -v '^-')
+while read -r line
+do
+	echo -e "\tGetting $line:"
+	if ls "$REPO_WORK"/$line-?.* > /dev/null 2>/dev/null
+	then
+		echo "Already found, won't update."
+	else
+		repotrack -p "$REPO_WORK" $line
+	fi
+done < "$ORIGPWD/$1";
 echo "Creating the repo."
 wget http://download.fedora.redhat.com/pub/fedora/linux/releases/7/Everything/i386/os/repodata/comps-f7.xml
 createrepo --update -g comps-f7.xml "$REPO_WORK"
