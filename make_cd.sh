@@ -84,7 +84,7 @@ sudo rpmbuild -bb  "$RPM_WORK/cc-home.spec"
 popd
 
 # Step 9: Put the RPM into 
-REPO_WORK="$WORK/repo/"
+REPO_WORK="/var/tmp/cc-livecd/"
 mkdir -p "$REPO_WORK"
 
 # Preferably grab only the latest-generated RPM.
@@ -93,16 +93,16 @@ cp /usr/src/redhat/RPMS/i386/cc-home*.rpm "$REPO_WORK"
 cd "$REPO_WORK"
 echo "Fetching new rpms."
 repotrack -p "$REPO_WORK" $(cat $ORIGPWD/packages-cc.txt | grep -v '^#' | grep -v '^-')
-while read -r line
-do
-	echo -e "\tGetting $line:"
-	if ls "$REPO_WORK"/$line-?.* > /dev/null 2>/dev/null
-	then
-		echo "Already found, won't update."
-	else
-		repotrack -p "$REPO_WORK" $line
-	fi
-done < "$ORIGPWD/$1";
+#while read -r line
+#do
+#	echo -e "\tGetting $line:"
+#	if ls "$REPO_WORK"/$line-?.* > /dev/null 2>/dev/null
+#	then
+#		echo "Already found, won't update."
+#	else
+#		repotrack -p "$REPO_WORK" $line
+#	fi
+#done < "$ORIGPWD/$1";
 echo "Creating the repo."
 wget http://download.fedora.redhat.com/pub/fedora/linux/releases/7/Everything/i386/os/repodata/comps-f7.xml
 createrepo --update -g comps-f7.xml "$REPO_WORK"
