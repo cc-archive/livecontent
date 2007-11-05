@@ -11,7 +11,7 @@ fi
 
 ORIGPWD="$PWD"
 
-mkdir -p /var/tmp/cc-live/ # NOTE: Evil, lame path.
+REPO_WORK="/var/tmp/cc-livecd/" # Evil, lame path.
 
 WORK="/var/tmp/cc-livecontent-$$/"
 echo "Going to make a mess in $WORK."
@@ -83,8 +83,7 @@ pushd "$RPM_TREE"
 sudo rpmbuild -bb  "$RPM_WORK/cc-home.spec"
 popd
 
-# Step 9: Put the RPM into 
-REPO_WORK="/var/tmp/cc-livecd/"
+# Step 9: Put the RPM into $REPO_WORK
 mkdir -p "$REPO_WORK"
 
 # Preferably grab only the latest-generated RPM.
