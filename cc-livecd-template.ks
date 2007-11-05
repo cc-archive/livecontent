@@ -6,7 +6,7 @@ selinux --disabled
 firewall --disabled
 #repo --name=devel --baseurl=http://download.fedora.redhat.com/pub/fedora/linux/releases/7/Everything/i386/os
 #repo --name=update --baseurl=http://download.fedora.redhat.com/pub/fedora/linux/updates/7/i386
-repo --name=home --baseurl=file:///tmp/cc-livecd
+repo --name=home --baseurl=file:///var/tmp/cc-livecd
 xconfig --startxonboot
 services --enabled=NetworkManager,dhcdbd --disabled=network,sshd
 %post
