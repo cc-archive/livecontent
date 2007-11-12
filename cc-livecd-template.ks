@@ -31,9 +31,9 @@ else
 	echo "No custom grub splash."
 fi
 
-useradd -c "Creative Commoner" cc
-passwd -d cc &> /dev/null
-chown -R cc:cc /home/cc
+/usr/sbin/useradd -c "Creative Commoner" cc
+/usr/bin/passwd -d cc &> /dev/null
+/bin/chown -R cc:cc /home/cc
 
 # save a little bit of space at least...
 rm -f /boot/initrd*
