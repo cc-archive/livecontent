@@ -107,9 +107,9 @@ wget http://download.fedora.redhat.com/pub/fedora/linux/releases/7/Everything/i3
 createrepo --update -g comps-f7.xml "$REPO_WORK"
 
 echo "Making kickstart file."
-cp "$ORIGPWD/cc-livecd-template.ks" cc-livecd.ks
-cat "$ORIGPWD/$1" >> cc-livecd.ks
-cat "$ORIGPWD/cc-packages.txt" >> cc-livecd.ks
+cp "$ORIGPWD/cc-livecd-template.ks" cc-livecd.ks # LAME
+cat "$ORIGPWD/packages-cc.txt" >> cc-livecd.ks # whitelist
+cat "$ORIGPWD/cc-packages.txt" >> cc-livecd.ks # blacklist
 echo "cc-home" >> cc-livecd.ks
 echo "Estimating total size."
 echo "Building CD."
