@@ -118,8 +118,8 @@ repotrack -p "$REPO_WORK" $(cat $ORIGPWD/packages-cc.txt | grep -v '^#' | grep -
 #	fi
 #done < "$ORIGPWD/$1";
 echo "Creating the repo."
-wget http://download.fedora.redhat.com/pub/fedora/linux/releases/7/Everything/i386/os/repodata/comps-f7.xml
-createrepo --update -g comps-f7.xml "$REPO_WORK"
+wget http://download.fedora.redhat.com/pub/fedora/linux/releases/8/Everything/i386/os/repodata/Fedora-8-comps.xml
+createrepo --update -g Fedora-8-comps.xml "$REPO_WORK"
 
 echo "Making kickstart file."
 cp "$ORIGPWD/cc-livecd-template.ks" cc-livecd.ks # LAME
