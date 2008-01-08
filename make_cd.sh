@@ -33,7 +33,23 @@ HOME_WORK="$WORK/home-build"
 mkdir -p "$HOME_WORK/home/cc"
 
 pushd "$HOME_WORK/home/cc"
+# if there is only one directory here, then we should cd into it first
 tar -mxzf "$ORIGPWD/$2"
+if [ `ls -d * | wc -l` = 1 ] ; then
+    if [ `ls | wc -l` = 1 ] ; then
+        dir=$(ls)
+        for thing in $dir/*; do
+            mv "$thing" .
+        done
+        for hiddenthing in $(ls --almost-all $dir); do
+            mv "$dir/$hiddenthing" .
+        done
+        # NOTE: Will fail for dot directories with spaces. :-(
+        rmdir $dir # but we'll know at this point
+
+        echo "Moved directory contents one up, BTW."
+    fi
+fi
 popd
 
 # Step 3: Jam in the init scripts and the roll_credits program
@@ -78,7 +94,6 @@ then
 fi
 
 # Step 8: Actually build the RPM
-#bash
 pushd "$RPM_TREE"
 sudo rpmbuild -bb  "$RPM_WORK/cc-home.spec"
 popd
