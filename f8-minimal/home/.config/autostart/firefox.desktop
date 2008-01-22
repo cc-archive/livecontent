@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=No name
+Encoding=UTF-8
+Version=1.0
+Name[en_US]=firefox
+Exec=firefox
+X-GNOME-Autostart-enabled=true

@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/cc/Desktop/flash-plugin-9.0.48.0-release.i386.rpm" added="2007-07-18T19:06:40Z" modified="2007-07-18T19:06:40Z" visited="2007-07-18T19:06:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-rpm"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="/usr/bin/system-install-packages %F" timestamp="1184785600" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="http://www.jamendo.com/en/creativecommons" added="2007-07-18T19:09:23Z" modified="2007-07-20T21:09:40Z" visited="2007-07-18T19:09:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gnome-open %u" timestamp="1184965780" count="18"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="http://www.jamendo.com/en" added="2007-07-18T19:09:44Z" modified="2007-07-18T19:09:44Z" visited="2007-07-18T19:09:44Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="htmlview %u" timestamp="1184785784" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="http://wiki.creativecommons.org/Audio" added="2007-07-18T19:11:18Z" modified="2007-07-18T19:28:28Z" visited="2007-07-18T19:11:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="htmlview %u" timestamp="1184786908" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Audio/ZAM&apos;S%20-%20Accords%20et%20%C2mes/D&apos;autres.ogg" added="2007-07-18T19:12:04Z" modified="2007-07-18T19:12:06Z" visited="2007-07-18T19:12:04Z">
+    <title>D&apos;autres.ogg</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/ogg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="totem %U" timestamp="1184785924" count="1"/>
+          <bookmark:application name="Totem Movie Player" exec="totem %u" timestamp="1184785926" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Audio/ZAM&apos;S%20-%20Accords%20et%20%C2mes/Il%20court.ogg" added="2007-07-18T19:12:40Z" modified="2007-07-18T19:13:13Z" visited="2007-07-18T19:12:40Z">
+    <title>Il court.ogg</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/ogg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Totem Movie Player" exec="totem %u" timestamp="1184785993" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Audio/ZAM&apos;S%20-%20Accords%20et%20%C2mes/Landes%20ecument.ogg" added="2007-07-18T19:12:51Z" modified="2007-07-18T19:29:19Z" visited="2007-07-18T19:12:51Z">
+    <title>Landes ecument.ogg</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/ogg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Totem Movie Player" exec="totem %u" timestamp="1184786959" count="3"/>
+          <bookmark:application name="File Manager" exec="totem %U" timestamp="1184786958" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Audio/ZAM&apos;S%20-%20Accords%20et%20%C2mes/License.txt" added="2007-07-18T19:13:40Z" modified="2007-07-18T21:31:59Z" visited="2007-07-18T19:13:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1184786065" count="3"/>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1184794319" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Audio/ZAM&apos;S%20-%20Accords%20et%20%C2mes/ZAM&apos;S%20-%20Accords%20et%20%C2mes%20Cover%20Art.jpg" added="2007-07-18T19:15:23Z" modified="2007-07-19T00:31:40Z" visited="2007-07-18T19:15:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gthumb %U" timestamp="1184805100" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Audio/Distimia%20-%20Cuando%20la%20ciudad%20duerme/Distimia%20-%20Cuando%20la%20ciudad%20duerme%20Cover%20Art.jpg" added="2007-07-18T19:16:38Z" modified="2007-07-18T21:23:05Z" visited="2007-07-18T19:16:38Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gthumb %U" timestamp="1184793785" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Audio/Distimia%20-%20Cuando%20la%20ciudad%20duerme/Calle%20Zengotitabengoa.ogg" added="2007-07-18T19:16:49Z" modified="2007-07-18T23:18:37Z" visited="2007-07-18T19:16:49Z">
+    <title>Calle Zengotitabengoa.ogg</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/ogg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="totem %U" timestamp="1184800716" count="3"/>
+          <bookmark:application name="Totem Movie Player" exec="totem %u" timestamp="1184800717" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Audio/Distimia%20-%20Cuando%20la%20ciudad%20duerme/Femme%20Fatal.ogg" added="2007-07-18T19:17:13Z" modified="2007-07-18T21:23:17Z" visited="2007-07-18T19:17:13Z">
+    <title>Femme Fatal.ogg</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/ogg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Totem Movie Player" exec="totem %u" timestamp="1184793797" count="2"/>
+          <bookmark:application name="File Manager" exec="totem %U" timestamp="1184793797" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Audio/Distimia%20-%20Cuando%20la%20ciudad%20duerme/San%20Sebasti%E1n%20jueves%20noche.ogg" added="2007-07-18T19:19:16Z" modified="2007-07-18T21:24:10Z" visited="2007-07-18T19:19:16Z">
+    <title>San Sebasti�n jueves noche.ogg</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/ogg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Totem Movie Player" exec="totem %u" timestamp="1184793850" count="2"/>
+          <bookmark:application name="File Manager" exec="totem %U" timestamp="1184793849" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Audio/Antony%20Raijekov%20-%20See%20U/Be%20Brave%20featuring%20Norine%20Braun.ogg" added="2007-07-18T19:19:37Z" modified="2007-07-18T23:19:42Z" visited="2007-07-18T19:19:37Z">
+    <title>Be Brave featuring Norine Braun.ogg</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/ogg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Totem Movie Player" exec="totem %u" timestamp="1184800782" count="2"/>
+          <bookmark:application name="File Manager" exec="totem %U" timestamp="1184800781" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Audio/Distimia%20-%20Cuando%20la%20ciudad%20duerme/License.txt" added="2007-07-18T19:20:53Z" modified="2007-07-18T19:20:54Z" visited="2007-07-18T19:20:53Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1184786453" count="1"/>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1184786454" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="http://blip.tv/file/301218?filename=Bavc-OutsideOfTheBox887.mp4" added="2007-07-18T19:21:41Z" modified="2007-07-18T19:25:17Z" visited="2007-07-18T19:21:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="htmlview %u" timestamp="1184786717" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="http://blip.tv/posts/?license=1%2C6%2C7%2C2%2C3%2C4%2C5&amp;amp;page=1" added="2007-07-18T19:22:55Z" modified="2007-07-18T19:22:55Z" visited="2007-07-18T19:22:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="htmlview %u" timestamp="1184786575" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="http://wiki.creativecommons.org/Video" added="2007-07-18T19:23:28Z" modified="2007-07-18T20:13:49Z" visited="2007-07-18T19:23:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="htmlview %u" timestamp="1184789629" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Video/Wanna%20Work%20Together.ogg" added="2007-07-18T19:23:40Z" modified="2007-07-18T22:16:10Z" visited="2007-07-18T19:23:40Z">
+    <title>Wanna Work Together.ogg</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/ogg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="totem %U" timestamp="1184796969" count="2"/>
+          <bookmark:application name="Totem Movie Player" exec="totem %u" timestamp="1184796970" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Video/None%20of%20the%20Above.ogg" added="2007-07-18T19:24:51Z" modified="2007-07-18T19:24:51Z" visited="2007-07-18T19:24:51Z">
+    <title>None of the Above.ogg</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/ogg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="totem %U" timestamp="1184786691" count="1"/>
+          <bookmark:application name="Totem Movie Player" exec="totem %u" timestamp="1184786691" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Video/Outside%20the%20Box.ogg" added="2007-07-18T19:24:58Z" modified="2007-07-18T21:42:14Z" visited="2007-07-18T19:24:58Z">
+    <title>Outside the Box.ogg</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/ogg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="totem %U" timestamp="1184794933" count="2"/>
+          <bookmark:application name="Totem Movie Player" exec="totem %u" timestamp="1184794934" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="http://blip.tv" added="2007-07-18T19:26:03Z" modified="2007-07-18T20:13:56Z" visited="2007-07-18T19:26:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="htmlview %u" timestamp="1184789636" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="http://flickr.com/photos/baltasar-pamplona-spain/801829172" added="2007-07-18T19:30:21Z" modified="2007-07-18T19:35:43Z" visited="2007-07-18T19:30:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="htmlview %u" timestamp="1184787343" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="http://flickr.com" added="2007-07-18T19:35:03Z" modified="2007-07-18T20:14:34Z" visited="2007-07-18T19:35:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="htmlview %u" timestamp="1184789674" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Image/jamieumd8.jpg" added="2007-07-18T19:36:10Z" modified="2007-07-18T22:24:42Z" visited="2007-07-18T19:36:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gthumb %U" timestamp="1184797482" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="http://wiki.creativecommons.org/Text" added="2007-07-18T19:37:16Z" modified="2007-07-18T19:37:16Z" visited="2007-07-18T19:37:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="htmlview %u" timestamp="1184787436" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="http://www.lulu.com/content/787925" added="2007-07-18T19:39:10Z" modified="2007-07-18T19:40:26Z" visited="2007-07-18T19:39:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="htmlview %u" timestamp="1184787626" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="http://www.lulu.com/content/995960" added="2007-07-18T19:39:48Z" modified="2007-07-18T19:39:48Z" visited="2007-07-18T19:39:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="htmlview %u" timestamp="1184787588" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Text/Very%20Short%20Stories.pdf" added="2007-07-18T19:40:21Z" modified="2007-07-18T22:43:15Z" visited="2007-07-18T19:40:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="evince %U" timestamp="1184798595" count="3"/>
+          <bookmark:application name="Evince Document Viewer" exec="evince %u" timestamp="1184798595" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Text/Mind%20%2B%20Body.pdf" added="2007-07-18T19:41:21Z" modified="2007-07-18T22:40:10Z" visited="2007-07-18T19:41:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="evince %U" timestamp="1184798409" count="3"/>
+          <bookmark:application name="Evince Document Viewer" exec="evince %u" timestamp="1184798410" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="http://cnx.org" added="2007-07-18T19:41:33Z" modified="2007-07-18T20:18:19Z" visited="2007-07-18T19:41:33Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="htmlview %u" timestamp="1184789899" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="http://cnx.org/content/col10330/latest" added="2007-07-18T19:42:07Z" modified="2007-07-18T22:45:49Z" visited="2007-07-18T19:42:07Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gnome-open %u" timestamp="1184798749" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="http://www.oercommons.org" added="2007-07-18T19:43:29Z" modified="2007-07-18T19:45:04Z" visited="2007-07-18T19:43:29Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="htmlview %u" timestamp="1184787904" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="http://wiki.creativecommons.org/Education" added="2007-07-18T19:44:43Z" modified="2007-07-18T19:44:43Z" visited="2007-07-18T19:44:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="htmlview %u" timestamp="1184787883" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="http://cnx.org/content/col10363/latest" added="2007-07-18T19:45:19Z" modified="2007-07-18T22:49:09Z" visited="2007-07-18T19:45:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gnome-open %u" timestamp="1184798949" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="http://www.lulu.com" added="2007-07-18T20:14:49Z" modified="2007-07-18T20:14:49Z" visited="2007-07-18T20:14:49Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="htmlview %u" timestamp="1184789689" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Audio/license.txt" added="2007-07-18T20:24:32Z" modified="2007-07-19T23:10:29Z" visited="2007-07-18T20:24:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1184886629" count="12"/>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1184886629" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Audio/Antony%20Raijekov%20-%20See%20U/When%20Waves%20Trying%20to%20Catch%20a%20Marvel.ogg" added="2007-07-18T20:30:02Z" modified="2007-07-18T23:19:21Z" visited="2007-07-18T20:30:02Z">
+    <title>When Waves Trying to Catch a Marvel.ogg</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/ogg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="totem %U" timestamp="1184800760" count="2"/>
+          <bookmark:application name="Totem Movie Player" exec="totem %u" timestamp="1184800761" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/index.html" added="2007-07-18T21:00:18Z" modified="2007-07-21T00:27:57Z" visited="2007-07-18T21:00:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1184977677" count="52"/>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1184889510" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Video/license.txt" added="2007-07-18T21:31:51Z" modified="2007-07-19T23:10:08Z" visited="2007-07-18T21:31:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1184886608" count="9"/>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1184886608" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Image/license.txt" added="2007-07-18T22:17:24Z" modified="2007-07-19T23:09:51Z" visited="2007-07-18T22:17:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1184886591" count="12"/>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1184886591" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Image/llahbocaj.jpg" added="2007-07-18T22:18:53Z" modified="2007-07-18T22:18:53Z" visited="2007-07-18T22:18:53Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gthumb %U" timestamp="1184797133" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Image/Ingorrr.jpg" added="2007-07-18T22:23:40Z" modified="2007-07-18T22:23:40Z" visited="2007-07-18T22:23:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gthumb %U" timestamp="1184797420" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Image/k_Roll.jpg" added="2007-07-18T22:26:19Z" modified="2007-07-18T22:26:19Z" visited="2007-07-18T22:26:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gthumb %U" timestamp="1184797579" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Image/MoonSoleil.jpg" added="2007-07-18T22:28:16Z" modified="2007-07-18T22:28:24Z" visited="2007-07-18T22:28:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gthumb %U" timestamp="1184797704" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Image/Perrimoon.jpg" added="2007-07-18T22:31:40Z" modified="2007-07-18T22:31:40Z" visited="2007-07-18T22:31:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gthumb %U" timestamp="1184797900" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Image/Pittsinger.jpg" added="2007-07-18T22:33:19Z" modified="2007-07-18T22:33:19Z" visited="2007-07-18T22:33:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gthumb %U" timestamp="1184797999" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Image/pmo.jpg" added="2007-07-18T22:35:22Z" modified="2007-07-18T22:35:22Z" visited="2007-07-18T22:35:22Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gthumb %U" timestamp="1184798122" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Image/timlloyd17.jpg" added="2007-07-18T22:36:35Z" modified="2007-07-18T22:36:35Z" visited="2007-07-18T22:36:35Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gthumb %U" timestamp="1184798195" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Image/zordor.jpg" added="2007-07-18T22:38:04Z" modified="2007-07-18T22:38:04Z" visited="2007-07-18T22:38:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gthumb %U" timestamp="1184798284" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Image/li" added="2007-07-18T22:39:18Z" modified="2007-07-18T22:50:56Z" visited="2007-07-18T22:39:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1184799056" count="2"/>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1184799056" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/license.txt" added="2007-07-18T22:39:54Z" modified="2007-07-18T22:45:22Z" visited="2007-07-18T22:39:54Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1184798722" count="5"/>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1184798721" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Text/license.txt" added="2007-07-18T22:47:11Z" modified="2007-07-19T23:09:34Z" visited="2007-07-18T22:47:11Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1184886574" count="4"/>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1184886574" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Education/license.txt" added="2007-07-18T22:47:40Z" modified="2007-07-19T23:09:07Z" visited="2007-07-18T22:47:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1184886547" count="7"/>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1184886547" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="http://flickr.com/creativecommons" added="2007-07-18T22:56:32Z" modified="2007-07-18T22:56:32Z" visited="2007-07-18T22:56:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gnome-open %u" timestamp="1184799392" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Document%20Templates/Worldlabel.com/Address_label23.ott" added="2007-07-18T23:24:43Z" modified="2007-07-18T23:26:04Z" visited="2007-07-18T23:24:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.oasis.opendocument.text-template"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="openoffice.org -writer %U" timestamp="1184801164" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Document%20Templates/Worldlabel.com/Alphabetical-1-filling-labels.ott" added="2007-07-18T23:26:20Z" modified="2007-07-18T23:26:39Z" visited="2007-07-18T23:26:20Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.oasis.opendocument.text-template"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="openoffice.org -writer %U" timestamp="1184801199" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Document%20Templates/Worldlabel.com/FamilyPhoto-CD-Label.ott" added="2007-07-18T23:27:09Z" modified="2007-07-18T23:27:09Z" visited="2007-07-18T23:27:09Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.oasis.opendocument.text-template"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="openoffice.org -writer %U" timestamp="1184801229" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Document%20Templates/Worldlabel.com/Mailing_Label-General_Theme_02-WL-OL125.ott" added="2007-07-18T23:27:53Z" modified="2007-07-18T23:27:53Z" visited="2007-07-18T23:27:53Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.oasis.opendocument.text-template"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="openoffice.org -writer %U" timestamp="1184801273" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Document%20Templates/Worldlabel.com/shipping-std-Design6.ott" added="2007-07-18T23:28:41Z" modified="2007-07-18T23:28:41Z" visited="2007-07-18T23:28:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.oasis.opendocument.text-template"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="openoffice.org -writer %U" timestamp="1184801321" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/LITTLE%20GUY/liveCD%20test%20content%20v1.2/Open%20document%20label%20templates/book%20label%20example.odt" added="2007-07-18T23:29:35Z" modified="2007-07-18T23:29:48Z" visited="2007-07-18T23:29:35Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.oasis.opendocument.text"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="openoffice.org -writer %U" timestamp="1184801375" count="1"/>
+          <bookmark:application name="OpenOffice.org 2.2" exec="swriter.bin %u" timestamp="1184801388" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Document%20Templates/alphabetical%20filing%20label%20example.ott" added="2007-07-18T23:30:16Z" modified="2007-07-18T23:30:16Z" visited="2007-07-18T23:30:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.oasis.opendocument.text-template"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="openoffice.org -writer %U" timestamp="1184801416" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Document%20Templates/mailing%20label%20example.odt" added="2007-07-18T23:31:52Z" modified="2007-07-18T23:31:54Z" visited="2007-07-18T23:31:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.oasis.opendocument.text"/>
+        <bookmark:applications>
+          <bookmark:application name="OpenOffice.org 2.2" exec="swriter.bin %u" timestamp="1184801514" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Document%20Templates/shipping%20label%20example.ott" added="2007-07-18T23:32:43Z" modified="2007-07-18T23:32:43Z" visited="2007-07-18T23:32:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.oasis.opendocument.text-template"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="openoffice.org -writer %U" timestamp="1184801563" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/.icons/cc-reuse.svg" added="2007-07-18T23:51:00Z" modified="2007-07-18T23:51:00Z" visited="2007-07-18T23:51:00Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gthumb %U" timestamp="1184802660" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///boot/grub/splash.xpm.gz" added="2007-07-18T23:57:15Z" modified="2007-07-18T23:57:15Z" visited="2007-07-18T23:57:15Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-gzip"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gnome-open %u" timestamp="1184803035" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/old_index.html" added="2007-07-18T23:57:32Z" modified="2007-07-18T23:57:32Z" visited="2007-07-18T23:57:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1184803052" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Education/README.txt" added="2007-07-19T23:09:01Z" modified="2007-07-21T00:13:31Z" visited="2007-07-19T23:09:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1184886541" count="1"/>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1184976811" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Text/README.txt" added="2007-07-19T23:09:28Z" modified="2007-07-21T00:13:02Z" visited="2007-07-19T23:09:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1184886568" count="1"/>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1184976782" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/.credits" added="2007-07-20T00:25:21Z" modified="2007-07-21T00:16:48Z" visited="2007-07-20T00:25:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1184891500" count="2"/>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1184977008" count="11"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/AUTHORS" added="2007-07-20T00:34:34Z" modified="2007-07-20T00:34:34Z" visited="2007-07-20T00:34:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-authors"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1184891674" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/.config/menus/settings.menu" added="2007-07-20T00:35:56Z" modified="2007-07-20T00:35:57Z" visited="2007-07-20T00:35:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1184891756" count="1"/>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1184891757" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/.config/menus/applications.menu" added="2007-07-20T00:36:02Z" modified="2007-07-20T00:48:13Z" visited="2007-07-20T00:36:02Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1184891762" count="1"/>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1184892493" count="14"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/.config/menus/applpications-live.menu" added="2007-07-20T00:37:39Z" modified="2007-07-20T00:37:53Z" visited="2007-07-20T00:37:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1184891873" count="2"/>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1184891873" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="http://www.jamendo.com/en/creativecommons/index.php" added="2007-07-20T21:19:01Z" modified="2007-07-20T21:19:01Z" visited="2007-07-20T21:19:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="htmlview %u" timestamp="1184966341" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Audio/README.txt" added="2007-07-20T21:25:31Z" modified="2007-07-21T00:11:50Z" visited="2007-07-20T21:25:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1184966775" count="2"/>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1184976710" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Image/README.txt" added="2007-07-20T21:35:36Z" modified="2007-07-21T00:09:52Z" visited="2007-07-20T21:35:37Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1184969163" count="2"/>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1184976592" count="10"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Image/1.jpg" added="2007-07-20T21:42:05Z" modified="2007-07-20T21:42:05Z" visited="2007-07-20T21:42:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gthumb %U" timestamp="1184967725" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Image/dr_pepper_by_llahbocaj.jpg" added="2007-07-20T21:42:48Z" modified="2007-07-20T21:42:48Z" visited="2007-07-20T21:42:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gthumb %U" timestamp="1184967768" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Image/2.jpg" added="2007-07-20T21:43:36Z" modified="2007-07-20T21:45:01Z" visited="2007-07-20T21:43:37Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gthumb %U" timestamp="1184967901" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Image/5.jpg" added="2007-07-20T21:50:00Z" modified="2007-07-20T21:50:00Z" visited="2007-07-20T21:50:00Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gthumb %U" timestamp="1184968200" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Image/concert_by_jamieumd8.jpg" added="2007-07-20T21:54:18Z" modified="2007-07-20T21:54:18Z" visited="2007-07-20T21:54:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gthumb %U" timestamp="1184968458" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/style.css" added="2007-07-20T23:05:50Z" modified="2007-07-21T00:24:04Z" visited="2007-07-20T23:05:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1184977444" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/Desktop/Video/README.txt" added="2007-07-21T00:12:31Z" modified="2007-07-21T00:12:31Z" visited="2007-07-21T00:12:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1184976751" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/images/cc-labs.png" added="2007-07-21T00:22:38Z" modified="2007-07-21T00:22:38Z" visited="2007-07-21T00:22:38Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gthumb %U" timestamp="1184977358" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/images/cc-livecontent.png" added="2007-07-21T00:22:43Z" modified="2007-07-21T00:22:43Z" visited="2007-07-21T00:22:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gthumb %U" timestamp="1184977363" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cc/.dmrc" added="2007-07-21T00:23:17Z" modified="2007-07-21T00:23:17Z" visited="2007-07-21T00:23:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1184977397" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

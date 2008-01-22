@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" oor:name="Hierarchy" oor:package="org.openoffice.ucb">
+ <node oor:name="Root">
+  <node oor:name="templates" oor:op="replace">
+   <prop oor:name="TargetURL" oor:type="xs:string">
+    <value/>
+   </prop>
+   <prop oor:name="Title" oor:type="xs:string">
+    <value>templates</value>
+   </prop>
+   <prop oor:name="Type" oor:type="xs:int">
+    <value>1</value>
+   </prop>
+   <node oor:name="Children">
+    <node oor:name="en-US" oor:op="replace">
+     <prop oor:name="TargetURL" oor:type="xs:string">
+      <value/>
+     </prop>
+     <prop oor:name="Title" oor:type="xs:string">
+      <value>en-US</value>
+     </prop>
+     <prop oor:name="Type" oor:type="xs:int">
+      <value>1</value>
+     </prop>
+     <node oor:name="Children">
+      <node oor:name="Business%20Correspondence" oor:op="replace">
+       <prop oor:name="TargetURL" oor:type="xs:string">
+        <value/>
+       </prop>
+       <prop oor:name="Title" oor:type="xs:string">
+        <value>Business Correspondence</value>
+       </prop>
+       <prop oor:name="Type" oor:type="xs:int">
+        <value>1</value>
+       </prop>
+       <node oor:name="Children">
+        <node oor:name="Company%20Letterhead%20document" oor:op="replace">
+         <prop oor:name="TargetURL" oor:type="xs:string">
+          <value>$(baseinsturl)/share/template/en-US/officorr/id_2_letterhead.ott</value>
+         </prop>
+         <prop oor:name="Title" oor:type="xs:string">
+          <value>Company Letterhead document</value>
+         </prop>
+         <prop oor:name="Type" oor:type="xs:int">
+          <value>0</value>
+         </prop>
+        </node>
+        <node oor:name="Department%20Report" oor:op="replace">
+         <prop oor:name="TargetURL" oor:type="xs:string">
+          <value>$(baseinsturl)/share/template/en-US/officorr/BlueReport.ott</value>
+         </prop>
+         <prop oor:name="Title" oor:type="xs:string">
+          <value>Department Report</value>
+         </prop>
+         <prop oor:name="Type" oor:type="xs:int">
+          <value>0</value>
+         </prop>
+        </node>
+        <node oor:name="Excellent%20Award" oor:op="replace">
+         <prop oor:name="TargetURL" oor:type="xs:string">
+          <value>$(baseinsturl)/share/template/en-US/officorr/excellence_award_2.ott</value>
+         </prop>
+         <prop oor:name="Title" oor:type="xs:string">
+          <value>Excellent Award</value>
+         </prop>
+         <prop oor:name="Type" oor:type="xs:int">
+          <value>0</value>
+         </prop>
+        </node>
+        <node oor:name="Invoice" oor:op="replace">
+         <prop oor:name="TargetURL" oor:type="xs:string">
+          <value>$(baseinsturl)/share/template/en-US/officorr/id_2_invoice_form.ott</value>
+         </prop>
+         <prop oor:name="Title" oor:type="xs:string">
+          <value>Invoice</value>
+         </prop>
+         <prop oor:name="Type" oor:type="xs:int">
+          <value>0</value>
+         </prop>
+        </node>
+        <node oor:name="Project%20Proposal" oor:op="replace">
+         <prop oor:name="TargetURL" oor:type="xs:string">
+          <value>$(baseinsturl)/share/template/en-US/officorr/project-proposal.ott</value>
+         </prop>
+         <prop oor:name="Title" oor:type="xs:string">
+          <value>Project Proposal</value>
+         </prop>
+         <prop oor:name="Type" oor:type="xs:int">
+          <value>0</value>
+         </prop>
+        </node>
+       </node>
+      </node>
+      <node oor:name="Education" oor:op="replace">
+       <prop oor:name="TargetURL" oor:type="xs:string">
+        <value/>
+       </prop>
+       <prop oor:name="Title" oor:type="xs:string">
+        <value>Education</value>
+       </prop>
+       <prop oor:name="Type" oor:type="xs:int">
+        <value>1</value>
+       </prop>
+       <node oor:name="Children">
+        <node oor:name="Turabian%20Style" oor:op="replace">
+         <prop oor:name="TargetURL" oor:type="xs:string">
+          <value>$(baseinsturl)/share/template/en-US/educate/turabian.ott</value>
+         </prop>
+         <prop oor:name="Title" oor:type="xs:string">
+          <value>Turabian Style</value>
+         </prop>
+         <prop oor:name="Type" oor:type="xs:int">
+          <value>0</value>
+         </prop>
+        </node>
+       </node>
+      </node>
+      <node oor:name="Forms%20and%20Contracts" oor:op="replace">
+       <prop oor:name="TargetURL" oor:type="xs:string">
+        <value/>
+       </prop>
+       <prop oor:name="Title" oor:type="xs:string">
+        <value>Forms and Contracts</value>
+       </prop>
+       <prop oor:name="Type" oor:type="xs:int">
+        <value>1</value>
+       </prop>
+       <node oor:name="Children">
+        <node oor:name="Standard%20Resume" oor:op="replace">
+         <prop oor:name="TargetURL" oor:type="xs:string">
+          <value>$(baseinsturl)/share/template/en-US/forms/resume.ott</value>
+         </prop>
+         <prop oor:name="Title" oor:type="xs:string">
+          <value>Standard Resume</value>
+         </prop>
+         <prop oor:name="Type" oor:type="xs:int">
+          <value>0</value>
+         </prop>
+        </node>
+       </node>
+      </node>
+      <node oor:name="Miscellaneous" oor:op="replace">
+       <prop oor:name="TargetURL" oor:type="xs:string">
+        <value/>
+       </prop>
+       <prop oor:name="Title" oor:type="xs:string">
+        <value>Miscellaneous</value>
+       </prop>
+       <prop oor:name="Type" oor:type="xs:int">
+        <value>1</value>
+       </prop>
+       <node oor:name="Children">
+        <node oor:name="Newsletter" oor:op="replace">
+         <prop oor:name="TargetURL" oor:type="xs:string">
+          <value>$(baseinsturl)/share/template/en-US/misc/newsletter_2.ott</value>
+         </prop>
+         <prop oor:name="Title" oor:type="xs:string">
+          <value>Newsletter</value>
+         </prop>
+         <prop oor:name="Type" oor:type="xs:int">
+          <value>0</value>
+         </prop>
+        </node>
+       </node>
+      </node>
+      <node oor:name="My%20Templates" oor:op="replace">
+       <prop oor:name="TargetURL" oor:type="xs:string">
+        <value/>
+       </prop>
+       <prop oor:name="Title" oor:type="xs:string">
+        <value>My Templates</value>
+       </prop>
+       <prop oor:name="Type" oor:type="xs:int">
+        <value>1</value>
+       </prop>
+      </node>
+      <node oor:name="Other%20Business%20Documents" oor:op="replace">
+       <prop oor:name="TargetURL" oor:type="xs:string">
+        <value/>
+       </prop>
+       <prop oor:name="Title" oor:type="xs:string">
+        <value>Other Business Documents</value>
+       </prop>
+       <prop oor:name="Type" oor:type="xs:int">
+        <value>1</value>
+       </prop>
+       <node oor:name="Children">
+        <node oor:name="Business%20Card" oor:op="replace">
+         <prop oor:name="TargetURL" oor:type="xs:string">
+          <value>$(baseinsturl)/share/template/en-US/offimisc/id_2_business_card.ott</value>
+         </prop>
+         <prop oor:name="Title" oor:type="xs:string">
+          <value>Business Card</value>
+         </prop>
+         <prop oor:name="Type" oor:type="xs:int">
+          <value>0</value>
+         </prop>
+        </node>
+        <node oor:name="Organization%20Chart" oor:op="replace">
+         <prop oor:name="TargetURL" oor:type="xs:string">
+          <value>$(baseinsturl)/share/template/en-US/offimisc/org_chart.ott</value>
+         </prop>
+         <prop oor:name="Title" oor:type="xs:string">
+          <value>Organization Chart</value>
+         </prop>
+         <prop oor:name="Type" oor:type="xs:int">
+          <value>0</value>
+         </prop>
+        </node>
+       </node>
+      </node>
+      <node oor:name="Presentation%20Backgrounds" oor:op="replace">
+       <prop oor:name="TargetURL" oor:type="xs:string">
+        <value/>
+       </prop>
+       <prop oor:name="Title" oor:type="xs:string">
+        <value>Presentation Backgrounds</value>
+       </prop>
+       <prop oor:name="Type" oor:type="xs:int">
+        <value>1</value>
+       </prop>
+       <node oor:name="Children">
+        <node oor:name="Dark%20Blue%20with%20Orange" oor:op="replace">
+         <prop oor:name="TargetURL" oor:type="xs:string">
+          <value>$(baseinsturl)/share/template/en-US/layout/lyt-darkblue.otp</value>
+         </prop>
+         <prop oor:name="Title" oor:type="xs:string">
+          <value>Dark Blue with Orange</value>
+         </prop>
+         <prop oor:name="Type" oor:type="xs:int">
+          <value>0</value>
+         </prop>
+        </node>
+        <node oor:name="Default" oor:op="replace">
+         <prop oor:name="TargetURL" oor:type="xs:string">
+          <value>$(baseinsturl)/share/template/en-US/layout/lyt-default.otp</value>
+         </prop>
+         <prop oor:name="Title" oor:type="xs:string">
+          <value>Default</value>
+         </prop>
+         <prop oor:name="Type" oor:type="xs:int">
+          <value>0</value>
+         </prop>
+        </node>
+        <node oor:name="Subtle%20Accents" oor:op="replace">
+         <prop oor:name="TargetURL" oor:type="xs:string">
+          <value>$(baseinsturl)/share/template/en-US/layout/lyt-cool.otp</value>
+         </prop>
+         <prop oor:name="Title" oor:type="xs:string">
+          <value>Subtle Accents</value>
+         </prop>
+         <prop oor:name="Type" oor:type="xs:int">
+          <value>0</value>
+         </prop>
+        </node>
+       </node>
+      </node>
+      <node oor:name="Presentations" oor:op="replace">
+       <prop oor:name="TargetURL" oor:type="xs:string">
+        <value/>
+       </prop>
+       <prop oor:name="Title" oor:type="xs:string">
+        <value>Presentations</value>
+       </prop>
+       <prop oor:name="Type" oor:type="xs:int">
+        <value>1</value>
+       </prop>
+       <node oor:name="Children">
+        <node oor:name="Default" oor:op="replace">
+         <prop oor:name="TargetURL" oor:type="xs:string">
+          <value>$(baseinsturl)/share/template/en-US/presnt/prs-default.otp</value>
+         </prop>
+         <prop oor:name="Title" oor:type="xs:string">
+          <value>Default</value>
+         </prop>
+         <prop oor:name="Type" oor:type="xs:int">
+          <value>0</value>
+         </prop>
+        </node>
+        <node oor:name="Introducing%20a%20New%20Product" oor:op="replace">
+         <prop oor:name="TargetURL" oor:type="xs:string">
+          <value>$(baseinsturl)/share/template/en-US/presnt/prs-novelty.otp</value>
+         </prop>
+         <prop oor:name="Title" oor:type="xs:string">
+          <value>Introducing a New Product</value>
+         </prop>
+         <prop oor:name="Type" oor:type="xs:int">
+          <value>0</value>
+         </prop>
+        </node>
+        <node oor:name="Recommendation%20of%20a%20Strategy" oor:op="replace">
+         <prop oor:name="TargetURL" oor:type="xs:string">
+          <value>$(baseinsturl)/share/template/en-US/presnt/prs-strategy.otp</value>
+         </prop>
+         <prop oor:name="Title" oor:type="xs:string">
+          <value>Recommendation of a Strategy</value>
+         </prop>
+         <prop oor:name="Type" oor:type="xs:int">
+          <value>0</value>
+         </prop>
+        </node>
+       </node>
+      </node>
+     </node>
+    </node>
+   </node>
+  </node>
+ </node>
+</oor:component-data>

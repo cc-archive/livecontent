@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="x_centered" mtime="1184969623" type="bool" value="true">
+        </entry>
+        <entry name="expand" mtime="1184969626" type="bool" value="true">
+        </entry>
+        <entry name="auto_hide" mtime="1184714186" type="bool" value="false">
+        </entry>
+</gconf>

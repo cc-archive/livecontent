@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="preview_content" mtime="1184977373" type="string">
+                <stringvalue>data</stringvalue>
+        </entry>
+        <entry name="show_image_data" mtime="1184977373" type="bool" value="false">
+        </entry>
+        <entry name="show_preview" mtime="1184977373" type="bool" value="false">
+        </entry>
+        <entry name="sort_images" mtime="1184977373" type="string">
+                <stringvalue>ascending</stringvalue>
+        </entry>
+        <entry name="arrange_images" mtime="1184977373" type="string">
+                <stringvalue>name</stringvalue>
+        </entry>
+        <entry name="show_thumbnails" mtime="1184977373" type="bool" value="true">
+        </entry>
+        <entry name="show_hidden_files" mtime="1184977364" type="bool" value="false">
+        </entry>
+</gconf>

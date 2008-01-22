@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="sidebar_content_size" mtime="1184977373" type="int" value="190">
+        </entry>
+        <entry name="image_pane_visible" mtime="1184977373" type="bool" value="false">
+        </entry>
+        <entry name="comment_pane_size" mtime="1184977373" type="int" value="385">
+        </entry>
+        <entry name="sidebar_size" mtime="1184977373" type="int" value="255">
+        </entry>
+        <entry name="window_height" mtime="1184977373" type="int" value="460">
+        </entry>
+        <entry name="window_width" mtime="1184977373" type="int" value="690">
+        </entry>
+        <entry name="filterbar_visible" mtime="1184977364" type="bool" value="true">
+        </entry>
+</gconf>

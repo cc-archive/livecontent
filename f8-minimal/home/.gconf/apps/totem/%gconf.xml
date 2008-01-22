@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="volume" mtime="1184800783" type="int" value="7">
+        </entry>
+        <entry name="sidebar_shown" mtime="1184792702" type="bool" value="true">
+        </entry>
+        <entry name="visual_quality" mtime="1184712576" type="int" value="0">
+        </entry>
+        <entry name="visual" mtime="1184886391" type="string">
+                <stringvalue>GOOM: what a GOOM!</stringvalue>
+        </entry>
+        <entry name="subtitle_encoding" mtime="1184800782" type="string">
+                <stringvalue>UTF-8</stringvalue>
+        </entry>
+        <entry name="show_vfx" mtime="1184800782" type="bool" value="true">
+        </entry>
+        <entry name="audio_output_type" mtime="1184712463" type="int" value="0">
+        </entry>
+</gconf>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:mimetypes">
+    <NC:MIME-types RDF:resource="urn:mimetypes:root"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mimetype:externalApplication:audio/x-mpegurl"
+                   NC:prettyName=""
+                   NC:path="" />
+  <RDF:Description RDF:about="urn:mimetype:audio/x-mpegurl"
+                   NC:value="audio/x-mpegurl"
+                   NC:editable="true"
+                   NC:description="MP3 audio (streamed)">
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:audio/x-mpegurl"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mimetypes:root">
+    <RDF:li RDF:resource="urn:mimetype:audio/x-mpegurl"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mimetype:handler:audio/x-mpegurl"
+                   NC:alwaysAsk="false"
+                   NC:useSystemDefault="true">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:audio/x-mpegurl"/>
+  </RDF:Description>
+</RDF:RDF>
