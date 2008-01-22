@@ -106,7 +106,7 @@ cp /usr/src/redhat/RPMS/i386/cc-home*.rpm "$REPO_WORK"
 
 cd "$REPO_WORK"
 echo "Fetching new rpms."
-repotrack -p "$REPO_WORK" $(cat $ORIGPWD/packages-cc.txt | grep -v '^#' | grep -v '^-')
+#repotrack -p "$REPO_WORK" $(cat $ORIGPWD/packages-cc.txt | grep -v '^#' | grep -v '^-')
 #while read -r line
 #do
 #	echo -e "\tGetting $line:"
@@ -117,16 +117,15 @@ repotrack -p "$REPO_WORK" $(cat $ORIGPWD/packages-cc.txt | grep -v '^#' | grep -
 #		repotrack -p "$REPO_WORK" $line
 #	fi
 #done < "$ORIGPWD/$1";
-echo "Creating the repo."
-wget http://download.fedora.redhat.com/pub/fedora/linux/releases/8/Everything/i386/os/repodata/Fedora-8-comps.xml
-createrepo --update -g Fedora-8-comps.xml "$REPO_WORK"
+#echo "Creating the repo."
+#wget http://download.fedora.redhat.com/pub/fedora/linux/releases/8/Everything/i386/os/repodata/Fedora-8-comps.xml
+#createrepo --update -g Fedora-8-comps.xml "$REPO_WORK"
 
 echo "Making kickstart file."
 cp "$ORIGPWD/cc-livecd-template.ks" cc-livecd.ks # LAME
 cat "$ORIGPWD/packages-cc.txt" >> cc-livecd.ks # whitelist
 cat "$ORIGPWD/cc-packages.txt" >> cc-livecd.ks # blacklist
 echo "cc-home" >> cc-livecd.ks
-echo "Estimating total size."
 echo "Building CD."
 sudo livecd-creator --config cc-livecd.ks --fslabel=ccLiveContent-1.0
 echo "Removing temp directories."
