@@ -106,20 +106,9 @@ cp /usr/src/redhat/RPMS/i386/cc-home*.rpm "$REPO_WORK"
 
 cd "$REPO_WORK"
 echo "Fetching new rpms."
-repotrack -p "$REPO_WORK" $(cat $ORIGPWD/packages-cc.txt | grep -v '^#' | grep -v '^-')
-#while read -r line
-#do
-#	echo -e "\tGetting $line:"
-#	if ls "$REPO_WORK"/$line-?.* > /dev/null 2>/dev/null
-#	then
-#		echo "Already found, won't update."
-#	else
-#		repotrack -p "$REPO_WORK" $line
-#	fi
-#done < "$ORIGPWD/$1";
-echo "Creating the repo."
-wget http://download.fedora.redhat.com/pub/fedora/linux/releases/7/Everything/i386/os/repodata/comps-f7.xml
-createrepo --update -g comps-f7.xml "$REPO_WORK"
+#repotrack -p "$REPO_WORK" cc-home
+wget -c http://download.fedora.redhat.com/pub/fedora/linux/releases/8/Everything/i386/os/repodata/Fedora-8-comps.xml
+createrepo --update -g Fedora-8-comps.xml "$REPO_WORK"
 
 echo "Making kickstart file."
 cp "$ORIGPWD/cc-livecd-template.ks" cc-livecd.ks # LAME
