@@ -3,9 +3,6 @@
 ANACONDA_SPLASH="splash.jpg"
 BOOT_SPLASH="livecd_splash.xpm.gz"
 
-## FIXME:
-## rename cc-pcakges, packages-cc to whtielist, blacklist
-
 if [ $# -lt 3 ]
 then
 	echo "Too few arguments. Three are needed.  The first is the kickstart config file and the second a .tar.gz of cc's home directory. The third is an init script to be run when the cd boots up."
@@ -110,7 +107,7 @@ createrepo --update -g Fedora-8-comps.xml "$REPO_WORK"
 echo "Making kickstart file."
 cp "$ORIGPWD/cc-livecd-template.ks" cc-livecd.ks # LAME
 cat "$ORIGPWD/packages-whitelist.txt" >> cc-livecd.ks # whitelist
-cat "$ORIGPWD/cc-packages.txt" >> cc-livecd.ks # blacklist
+cat "$ORIGPWD/packages-blacklist.txt" >> cc-livecd.ks # blacklist
 echo "cc-home" >> cc-livecd.ks
 echo "Estimating total size."
 echo "Building CD."
