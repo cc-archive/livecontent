@@ -9,7 +9,7 @@ firewall --disabled
 repo --name=f8 --baseurl=http://10.0.2.111/yum/base/8/i386/
 repo --name=home --baseurl=file:///var/tmp/cc-livecd
 xconfig --startxonboot
-services --enabled=NetworkManager,dhcdbd --disabled=network,sshd
+services --enabled=NetworkManager --disabled=network
 %post
 chmod 755 /etc/rc.d/init.d/cc-live
 /sbin/restorecon /etc/rc.d/init.d/cc-live

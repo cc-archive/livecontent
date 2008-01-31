@@ -118,4 +118,5 @@ echo "cc-home" >> cc-livecd.ks
 echo "Estimating total size."
 echo "Building CD."
 sudo livecd-creator --config cc-livecd.ks --fslabel=ccLiveContent-1.0
+mv *.iso "$ORIGPWD"
 echo "Removing temp directories."
