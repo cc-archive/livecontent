@@ -465,3 +465,4 @@ rhgb
 jokosher
 gedit
 cups
+tuxpaint
