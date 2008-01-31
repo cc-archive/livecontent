@@ -109,7 +109,7 @@ createrepo --update -g Fedora-8-comps.xml "$REPO_WORK"
 
 echo "Making kickstart file."
 cp "$ORIGPWD/cc-livecd-template.ks" cc-livecd.ks # LAME
-cat "$ORIGPWD/packages-cc.txt" >> cc-livecd.ks # whitelist
+cat "$ORIGPWD/packages-whitelist.txt" >> cc-livecd.ks # whitelist
 cat "$ORIGPWD/cc-packages.txt" >> cc-livecd.ks # blacklist
 echo "cc-home" >> cc-livecd.ks
 echo "Estimating total size."
