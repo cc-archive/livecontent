@@ -6,9 +6,16 @@ selinux --disabled
 firewall --disabled
 #repo --name=devel --baseurl=http://download.fedora.redhat.com/pub/fedora/linux/releases/7/Everything/i386/os
 #repo --name=update --baseurl=http://download.fedora.redhat.com/pub/fedora/linux/updates/7/i386
+repo --name=f8 --baseurl=http://10.0.2.111/yum/base/8/i386/
 repo --name=home --baseurl=file:///var/tmp/cc-livecd
 xconfig --startxonboot
-services --enabled=NetworkManager,dhcdbd --disabled=network,sshd
+
+# Below hack necessary to get the CD to boot on a CC Dell.
+# I can't believe it's 2008 and I'm still doing this.
+bootloader --append "noapic"
+# </hack>
+
+services --enabled=NetworkManager --disabled=network
 %post
 chmod 755 /etc/rc.d/init.d/cc-live
 /sbin/restorecon /etc/rc.d/init.d/cc-live

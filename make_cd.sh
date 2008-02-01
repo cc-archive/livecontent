@@ -1,7 +1,7 @@
 #! /bin/bash -xe
 
-## FIXME:
-## rename cc-pcakges, packages-cc to whtielist, blacklist
+ANACONDA_SPLASH="splash.jpg"
+BOOT_SPLASH="livecd_splash.xpm.gz"
 
 if [ $# -lt 3 ]
 then
@@ -62,18 +62,12 @@ cp "$ORIGPWD/roll_credits" "$HOME_WORK/usr/bin/"
 chmod +x "$HOME_WORK/usr/bin/roll_credits"
 
 # Step 4: Optional: set up the anaconda-runtime splash (?)
-if [ "$4" != "" ]
-then
-	mkdir -p usr/lib/anaconda-runtime/
-	cp ../../$4 usr/lib/anaconda-runtime/splash.jpg
-fi
+mkdir -p usr/lib/anaconda-runtime/
+cp "$ORIGPWD/$ANACONDA_SPLASH" usr/lib/anaconda-runtime/syslinux-vesa-splash.jpg
 
 # Step 5: Optional: set up the grub splash!
-if [ "$5" != "" ]
-then
-	mkdir -p boot/grub
-	cp ../../$5 boot/grub/new_splash.xpm.gz
-fi
+mkdir -p boot/grub
+cp "$ORIGPWD/$BOOT_SPLASH" boot/grub/new_splash.xpm.gz
 
 # Step 6: Wrap all this up into a tar file
 pushd "$HOME_WORK"
@@ -106,27 +100,17 @@ cp /usr/src/redhat/RPMS/i386/cc-home*.rpm "$REPO_WORK"
 
 cd "$REPO_WORK"
 echo "Fetching new rpms."
-repotrack -p "$REPO_WORK" $(cat $ORIGPWD/packages-cc.txt | grep -v '^#' | grep -v '^-')
-#while read -r line
-#do
-#	echo -e "\tGetting $line:"
-#	if ls "$REPO_WORK"/$line-?.* > /dev/null 2>/dev/null
-#	then
-#		echo "Already found, won't update."
-#	else
-#		repotrack -p "$REPO_WORK" $line
-#	fi
-#done < "$ORIGPWD/$1";
-echo "Creating the repo."
-wget http://download.fedora.redhat.com/pub/fedora/linux/releases/7/Everything/i386/os/repodata/comps-f7.xml
-createrepo --update -g comps-f7.xml "$REPO_WORK"
+#repotrack -p "$REPO_WORK" cc-home
+wget -c http://download.fedora.redhat.com/pub/fedora/linux/releases/8/Everything/i386/os/repodata/Fedora-8-comps.xml
+createrepo --update -g Fedora-8-comps.xml "$REPO_WORK"
 
 echo "Making kickstart file."
 cp "$ORIGPWD/cc-livecd-template.ks" cc-livecd.ks # LAME
-cat "$ORIGPWD/packages-cc.txt" >> cc-livecd.ks # whitelist
-cat "$ORIGPWD/cc-packages.txt" >> cc-livecd.ks # blacklist
+cat "$ORIGPWD/packages-whitelist.txt" >> cc-livecd.ks # whitelist
+cat "$ORIGPWD/packages-blacklist.txt" >> cc-livecd.ks # blacklist
 echo "cc-home" >> cc-livecd.ks
 echo "Estimating total size."
 echo "Building CD."
 sudo livecd-creator --config cc-livecd.ks --fslabel=ccLiveContent-1.0
+mv *.iso "$ORIGPWD"
 echo "Removing temp directories."
