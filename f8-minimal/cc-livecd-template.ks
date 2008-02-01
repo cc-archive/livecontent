@@ -9,6 +9,12 @@ firewall --disabled
 repo --name=f8 --baseurl=http://10.0.2.111/yum/base/8/i386/
 repo --name=home --baseurl=file:///var/tmp/cc-livecd
 xconfig --startxonboot
+
+# Below hack necessary to get the CD to boot on a CC Dell.
+# I can't believe it's 2008 and I'm still doing this.
+bootloader --append "noapic"
+# </hack>
+
 services --enabled=NetworkManager --disabled=network
 %post
 chmod 755 /etc/rc.d/init.d/cc-live
