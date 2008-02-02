@@ -5,4 +5,4 @@ iso:
 
 clean:
 	rm -rf /var/tmp/cc-livecd/
-	rm -rf /var/tmp/cc-livecontent-*
+	sudo rm -rf /var/tmp/cc-livecontent-*
