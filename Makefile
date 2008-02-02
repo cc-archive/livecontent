@@ -1,5 +1,7 @@
 # Let's control the CD creation process with a makefile.
 
+all: iso
+
 iso:
 	 ./make_cd.sh cc-livecd-template.ks home.tar.gz init.sh
 
