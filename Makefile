@@ -3,6 +3,7 @@
 all: iso
 
 iso:
+	 sudo yum install rpm-build livecd-creator createrepo
 	 ./make_cd.sh cc-livecd-template.ks home.tar.gz init.sh
 
 clean:
