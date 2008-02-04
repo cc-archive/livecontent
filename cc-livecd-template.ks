@@ -47,4 +47,8 @@ fi
 rm -f /boot/initrd*
 %end
 
+%post --nochroot
+touch "$LIVE_ROOT/free-at-last"
+%end
+
 %packages
