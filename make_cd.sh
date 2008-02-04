@@ -109,6 +109,7 @@ cp "$ORIGPWD/cc-livecd-template.ks" cc-livecd.ks # LAME
 cat "$ORIGPWD/packages-whitelist.txt" >> cc-livecd.ks # whitelist
 cat "$ORIGPWD/packages-blacklist.txt" >> cc-livecd.ks # blacklist
 echo "cc-home" >> cc-livecd.ks
+echo "%end"                           >> cc-livecd.ks # for future kickstart
 echo "Estimating total size."
 echo "Building CD."
 sudo livecd-creator --config cc-livecd.ks --fslabel=ccLiveContent-1.0

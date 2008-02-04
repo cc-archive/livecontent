@@ -45,4 +45,6 @@ fi
 
 # save a little bit of space at least...
 rm -f /boot/initrd*
+%end
+
 %packages
