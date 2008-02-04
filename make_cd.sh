@@ -113,5 +113,9 @@ echo "%end"                           >> cc-livecd.ks # for future kickstart
 echo "Estimating total size."
 echo "Building CD."
 sudo livecd-creator --config cc-livecd.ks --fslabel=ccLiveContent-1.0
-mv *.iso "$ORIGPWD"
+
+for thing in *.iso
+do
+    mv "$thing" "${thing%.iso}"-$(date +%s).iso
+done
 echo "Not removing temp directories."
