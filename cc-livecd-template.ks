@@ -23,10 +23,10 @@ chmod 755 /etc/rc.d/init.d/cc-live
 /sbin/chkconfig --add cc-live
 
 # if it exists use a new_splash
-if [ -f /usr/lib/anaconda-runtime/splash.jpg ]
+if [ -f /usr/lib/anaconda-runtime/staging-splash.jpg ]
 then
 	echo "Copying isolinux splash image."
-	mv -f /usr/lib/anaconda-runtime/splash.jpg /usr/lib/anaconda-runtime/syslinux-vesa-splash.jpg
+	mv -f /usr/lib/anaconda-runtime/staging-splash.jpg /usr/lib/anaconda-runtime/syslinux-vesa-splash.jpg
 else
 	echo "No custom isolinux splash."
 fi
