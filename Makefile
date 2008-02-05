@@ -15,6 +15,16 @@ hometarball:
 	(cd "${TEMPDIR}" ; tar zcf - home) > home.tar.gz
 
 clean:
+	# First, umount all the bind mounts.
+	umount /var/tmp/*
+	umount /var/tmp/*/*
+	umount /var/tmp/*/*/*
+	umount /var/tmp/*/*/*/*
+	umount /var/tmp/*/*/*
+	umount /var/tmp/*/*
+	umount /var/tmp/*
+
+	# Then do a regular clean.
 	rm -f home.tar.gz
 	sudo rm -rf /var/tmp/cc-livecd/
 	sudo rm -rf /var/tmp/cc-livecontent-*
