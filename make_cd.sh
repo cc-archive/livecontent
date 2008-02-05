@@ -80,7 +80,7 @@ sudo cp "$WORK/cc-home.tar.gz" /usr/src/redhat/SOURCES/cc-home.tar.gz
 echo "/home/" >> "$RPM_WORK/cc-home.spec"
 echo "/etc/" >> "$RPM_WORK/cc-home.spec"
 echo "/usr/" >> "$RPM_WORK/cc-home.spec"
-echo "/boot/" >> $RPM_WORK/cc-home.spec"
+echo "/boot/" >> "$RPM_WORK/cc-home.spec"
 
 # Step 7a: if there was a grub splash, add those files too
 if [ "$5" != "" ]
