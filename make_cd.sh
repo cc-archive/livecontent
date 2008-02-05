@@ -117,6 +117,6 @@ sudo livecd-creator --config cc-livecd.ks --fslabel=ccLiveContent-2.0
 
 for thing in *.iso
 do
-    mv "$thing" "${thing%.iso}"-$(date +%s).iso
+    mv "$thing" "$ORIGPWD"/"${thing%.iso}"-$(date +%s).iso
 done
 echo "Not removing temp directories."
