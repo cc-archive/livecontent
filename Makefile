@@ -2,7 +2,7 @@
 
 TEMPDIR := $(shell mktemp -d /var/tmp/cc-livecontent-makefilework-XXXX)
 
-all: iso
+all: clean iso
 
 iso: hometarball
 	 sudo yum -y install rpm-build livecd-tools createrepo rsync gimp
