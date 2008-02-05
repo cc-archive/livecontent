@@ -62,6 +62,12 @@ rm -f livecontent.zip
 ### FIXME: Fix thumbnails
 popd
 
+### Grab Flickr content
+curl 10.0.2.2:8080/make_zip
+wget 10.0.2.2:8080/grab_zip -O flickr.tar.gz
+tar zxvf flickr.tar.gz
+
+### FIXME: Fix thumbnails
 %end
 
 %packages
