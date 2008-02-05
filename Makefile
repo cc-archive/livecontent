@@ -14,5 +14,6 @@ hometarball:
 	(cd "${TEMPDIR}" ; tar zcf - home) > home.tar.gz
 
 clean:
+	rm -f home.tar.gz
 	sudo rm -rf /var/tmp/cc-livecd/
 	sudo rm -rf /var/tmp/cc-livecontent-*
