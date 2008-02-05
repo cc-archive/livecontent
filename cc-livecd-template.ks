@@ -48,7 +48,17 @@ rm -f /boot/initrd*
 %end
 
 %post --nochroot
-touch "$LIVE_ROOT/free-at-last"
+cd "$LIVE_ROOT"
+mkdir -p content
+cd content
+
+### Grab content
+pushd "Wikimedia Commons Featured Pictures"
+wget http://10.0.2.2/~paulproteus/wikimedia-poty/livecontent.zip
+unzip livecontent.zip
+rm -f livecontent.zip
+### FIXME: Fix thumbnails
+popd
 %end
 
 %packages
