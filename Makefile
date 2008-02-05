@@ -10,6 +10,7 @@ iso: hometarball
 	 rsync -avz *.iso paulproteus@10.0.2.2:cctools/livecontent/built-images/
 
 hometarball:
+	mkdir -p ${TEMPDIR}
 	svn export home ${TEMPDIR}/home
 	(cd "${TEMPDIR}" ; tar zcf - home) > home.tar.gz
 
