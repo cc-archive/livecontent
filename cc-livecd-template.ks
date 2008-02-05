@@ -59,13 +59,30 @@ pushd "$NEWDIR"
 wget http://10.0.2.2/~paulproteus/wikimedia-poty/livecontent.zip
 unzip livecontent.zip
 rm -f livecontent.zip
+
+pushd "$LIVE_ROOT"/home/cc/Desktop/Images/
+ln -s "$OLDPWD"
+popd
+
 ### FIXME: Fix thumbnails
+
 popd
 
 ### Grab Flickr content
 curl 10.0.2.2:8080/make_zip
 wget 10.0.2.2:8080/grab_zip -O flickr.tar.gz
 tar zxvf flickr.tar.gz
+
+NEWDIR="Flickr.com Interesting photos"
+pushd "$NEWDIR"
+
+pushd "$LIVE_ROOT"/home/cc/Desktop/Images/
+ln -s "$OLDPWD"
+popd
+
+popd
+
+rm -f flickr.tar.gz
 
 ### FIXME: Fix thumbnails
 %end
