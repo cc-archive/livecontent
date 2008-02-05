@@ -25,27 +25,27 @@ if [ -b /dev/live ]; then
 fi
 
 # read some variables out of /proc/cmdline
-for o in \`cat /proc/cmdline\` ; do
-    case \$o in
+for o in `cat /proc/cmdline` ; do
+    case $o in
     ks=*)
-        ks="\${o#ks=}"
+        ks="${o#ks=}"
         ;;
     xdriver=*)
-        xdriver="--set-driver=\${o#xdriver=}"
+        xdriver="--set-driver=${o#xdriver=}"
         ;;
     esac
 done
 
 # enable swaps unless requested otherwise
-swaps=\`blkid -t TYPE=swap -o device\`
-if ! strstr "\`cat /proc/cmdline\`" noswap -a [ -n "\$swaps" ] ; then
-  for s in \$swaps ; do
-    action "Enabling swap partition \$s" swapon \$s
+swaps=`blkid -t TYPE=swap -o device`
+if ! strstr "`cat /proc/cmdline`" noswap -a [ -n "$swaps" ] ; then
+  for s in $swaps ; do
+    action "Enabling swap partition $s" swapon $s
   done
 fi
 
 # configure X, allowing user to override xdriver
-exists system-config-display --noui --reconfig --set-depth=24 \$xdriver
+exists system-config-display --noui --reconfig --set-depth=24 $xdriver
 
 # unmute sound card
 exists alsaunmute 0 2> /dev/null
