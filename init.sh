@@ -19,13 +19,33 @@ echo "Setting up ccLiveContent..."
 touch /.liveimg-configured
 mv -f /home/cc/.config/menus/applications-live.menu /home/cc/.config/menus/applications.menu
 # mount live image
-#if [ -b /dev/live ]; then
-#   mkdir -p /mnt/live
-#   mount -o ro /dev/live /mnt/live
-#fi
+if [ -b /dev/live ]; then
+   mkdir -p /mnt/live
+   mount -o ro /dev/live /mnt/live
+fi
 
-# configure X
-exists system-config-display --noui --reconfig --set-depth=24
+# read some variables out of /proc/cmdline
+for o in \`cat /proc/cmdline\` ; do
+    case \$o in
+    ks=*)
+        ks="\${o#ks=}"
+        ;;
+    xdriver=*)
+        xdriver="--set-driver=\${o#xdriver=}"
+        ;;
+    esac
+done
+
+# enable swaps unless requested otherwise
+swaps=\`blkid -t TYPE=swap -o device\`
+if ! strstr "\`cat /proc/cmdline\`" noswap -a [ -n "\$swaps" ] ; then
+  for s in \$swaps ; do
+    action "Enabling swap partition \$s" swapon \$s
+  done
+fi
+
+# configure X, allowing user to override xdriver
+exists system-config-display --noui --reconfig --set-depth=24 \$xdriver
 
 # unmute sound card
 exists alsaunmute 0 2> /dev/null
@@ -58,3 +78,7 @@ chkconfig --level 345 readahead_later off &> /dev/null
 
 # Stopgap fix for RH #217966; should be fixed in HAL instead
 touch /media/.hal-mtab
+
+# workaround clock syncing on shutdown that we don't want (#297421)
+sed -i -e 's/hwclock/no-such-hwclock/g' /etc/rc.d/init.d/halt
+
