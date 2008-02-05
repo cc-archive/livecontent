@@ -16,13 +16,13 @@ hometarball:
 
 clean:
 	# First, umount all the bind mounts.
-	umount /var/tmp/*
-	umount /var/tmp/*/*
-	umount /var/tmp/*/*/*
-	umount /var/tmp/*/*/*/*
-	umount /var/tmp/*/*/*
-	umount /var/tmp/*/*
-	umount /var/tmp/*
+	-sudo umount /var/tmp/*
+	-sudo umount /var/tmp/*/*
+	-sudo umount /var/tmp/*/*/*
+	-sudo umount /var/tmp/*/*/*/*
+	-sudo umount /var/tmp/*/*/*
+	-sudo umount /var/tmp/*/*
+	-sudo umount /var/tmp/*
 
 	# Then do a regular clean.
 	rm -f home.tar.gz
