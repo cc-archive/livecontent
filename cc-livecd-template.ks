@@ -53,12 +53,15 @@ mkdir -p content
 cd content
 
 ### Grab content
-pushd "Wikimedia Commons Featured Pictures"
+NEWDIR="Wikimedia Commons Featured Pictures"
+mkdir "$NEWDIR"
+pushd "$NEWDIR"
 wget http://10.0.2.2/~paulproteus/wikimedia-poty/livecontent.zip
 unzip livecontent.zip
 rm -f livecontent.zip
 ### FIXME: Fix thumbnails
 popd
+
 %end
 
 %packages
