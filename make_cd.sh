@@ -64,6 +64,7 @@ chmod +x "$HOME_WORK/usr/bin/roll_credits"
 # Step 4: Optional: set up the anaconda-runtime splash (?)
 mkdir -p usr/lib/anaconda-runtime/
 cp "$ORIGPWD/$ANACONDA_SPLASH" usr/lib/anaconda-runtime/syslinux-vesa-splash.jpg
+cp "$ORIGPWD/$ANACONDA_SPLASH" usr/lib/anaconda-runtime/splash.jpg
 
 # Step 5: Optional: set up the grub splash!
 mkdir -p boot/grub
