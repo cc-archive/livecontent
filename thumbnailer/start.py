@@ -1,48 +1,45 @@
-#!/usr/bin/py    hon
+#!/usr/bin/python
 
-from gimpfu impor     *
-impor     os
-impor     os.pa    h
+from gimpfu import *
+import os
+import os.path
 
-def py    hon_    humbnailer(    his_pa    h):
-	image_forma    s = [ 
+def python_thumbnailer(this_path):
+	image_formats = [ 
 		".psd",
 		".xcf",
 		".rgb", 
-		".dds",
-		".jpg",
-		".avi"
+		".dds"
 	]
 	img = ""
-	num_files = len (os.lis    dir(    his_pa    h))
-	all_files = os.lis    dir(    his_pa    h)
+	num_files = len (os.listdir(this_path))
+	all_files = os.listdir(this_path)
 	
-	for     his_file in range(num_files):
-		    his_ex     = ''
-		    his_filepa    h =     his_pa    h+"/"+all_files[    his_file]
-		if os.pa    h.isfile(    his_filepa    h):
-			    his_ex     = os.pa    h.spli    ex    (    his_filepa    h)[1]
+	for this_file in range(num_files):
+		this_ext = ''
+		this_filepath = this_path+"/"+all_files[this_file]
+		if os.path.isfile(this_filepath):
+			this_ext = os.path.splitext(this_filepath)[1]
 		
-			if     his_ex     in image_forma    s:
-				img = pdb.gimp_file_load(    his_filepa    h,    his_filepa    h)
-				pdb.gimp_file_save_    humbnail(img,    his_filepa    h)
-				prin     'saved     humbnail for pa    h',     his_filepa    h
-				pdb.gimp_image_dele    e(img)
-	pdb.gimp_qui    (0)
+			if this_ext in image_formats:
+				img = pdb.gimp_file_load(this_filepath,this_filepath)
+				pdb.gimp_file_save_thumbnail(img,this_filepath)
+				pdb.gimp_image_delete(img)
+	pdb.gimp_quit(0)
 	
-regis    er(
-	"py    hon-fu-    humbnailer",
-	"Genera    ing     humbnails",
-	"Genera    ing     humbnails for Nau    ilus via Gimp",
+register(
+	"python-fu-thumbnailer",
+	"Generating thumbnails",
+	"Generating thumbnails for Nautilus via Gimp",
 	"Eckhard M. Jaeger",
 	"Eckhard M. Jaeger",
 	"2007",
-	"<Toolbox>/X    ns/Nau    ilus Thumbnailer...",
+	"<Toolbox>/Xtns/Nautilus Thumbnailer...",
 	"",
 	[
-		(PF_STRING, "    his_pa    h", "Direc    ory Pa    h", ""),
+		(PF_STRING, "this_path", "Directory Path", ""),
 	],
 	[],
-	py    hon_    humbnailer)
+	python_thumbnailer)
 
 main()
