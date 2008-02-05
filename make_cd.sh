@@ -62,11 +62,11 @@ cp "$ORIGPWD/roll_credits" "$HOME_WORK/usr/bin/"
 chmod +x "$HOME_WORK/usr/bin/roll_credits"
 
 # Step 4: Optional: set up the anaconda-runtime splash (?)
-mkdir -p usr/lib/anaconda-runtime/
+mkdir -p $HOME_WORK/usr/lib/anaconda-runtime/
 cp "$ORIGPWD/$ANACONDA_SPLASH" $HOME_WORK/usr/lib/anaconda-runtime/staging-splash.jpg
 
 # Step 5: Optional: set up the grub splash!
-mkdir -p boot/grub
+mkdir -p $HOME_WORK/boot/grub
 cp "$ORIGPWD/$BOOT_SPLASH" $HOME_WORK/boot/grub/new_splash.xpm.gz
 
 # Step 6: Wrap all this up into a tar file
