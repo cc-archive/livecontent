@@ -3,7 +3,7 @@
 all: iso
 
 iso:
-	 sudo yum -y install rpm-build livecd-tools createrepo rsync
+	 sudo yum -y install rpm-build livecd-tools createrepo rsync gimp
 	 ./make_cd.sh cc-livecd-template.ks home.tar.gz init.sh
 	 rsync -avz *.iso paulproteus@10.0.2.2:cctools/livecontent/built-images/
 
