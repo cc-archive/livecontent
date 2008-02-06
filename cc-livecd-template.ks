@@ -19,11 +19,19 @@ bootloader --append "noapic"
 services --enabled=NetworkManager --disabled=network
 
 %post --nochroot
-cd "$LIVE_ROOT"
-mkdir -p content
-cd content
 
-### Grab content
+# FIX BOOTLOADER SPLASH
+# LIVECD-CREATOR RUNS configureBootLoader() BEFORE runPost()
+# This is a hack that might be possible to remove by reorganizing things?
+# Does RPM have an equivalent to dpkg-divert?   But who cares, really.
+cp -f "$INSTALL_ROOT/usr/lib/anaconda-runtime/staging-splash.jpg" \
+   "$LIVE_ROOT/isolinux/splash.jpg"
+
+cd "$LIVE_ROOT"
+mkdir -p Content
+cd Content
+
+### Grab Content
 NEWDIR="Wikimedia Commons Featured Pictures"
 mkdir "$NEWDIR"
 pushd "$NEWDIR"
@@ -31,20 +39,20 @@ wget http://10.0.2.2/~paulproteus/wikimedia-poty/livecontent.zip
 unzip livecontent.zip
 
 # Create thumbnail directory
-mkdir -p "$LIVE_ROOT/home/cc/.thumbnails/normal/"
+mkdir -p "$INSTALL_ROOT/home/cc/.thumbnails/normal/"
 
 # For each jpg or svg or png, generate the thumbnail
 find -iname \*.jpg -or -iname \*.svg -or -iname \*.png -print0 | xargs -0 -n1 -I '{}' \
-    python "$LIVE_ROOT"/usr/bin/gen_thumbnails.py '{}' "/mnt/live/content/$NEWDIR/" "$LIVE_ROOT/home/cc/.thumbnails/normal/"
+    python "$INSTALL_ROOT"/usr/bin/gen_thumbnails.py '{}' "/mnt/live/Content/$NEWDIR/" "$INSTALL_ROOT/home/cc/.thumbnails/normal/"
 
 rm -f livecontent.zip
 
-pushd "$LIVE_ROOT"/home/cc/Desktop/Image/
+pushd "$INSTALL_ROOT"/home/cc/Desktop/Image/
 ln -s "$OLDPWD"
 
 # For each jpg or svg or png, generate the thumbnail
 find -iname \*.jpg -or -iname \*.svg -or -iname \*.png -print0 | xargs -0 -n1 -I '{}' \
-    python "$LIVE_ROOT"/usr/bin/gen_thumbnails.py '{}' "/home/cc/Desktop/Image/$NEWDIR/" "$LIVE_ROOT/home/cc/.thumbnails/normal/"
+    python "$INSTALL_ROOT"/usr/bin/gen_thumbnails.py '{}' "/home/cc/Desktop/Image/$NEWDIR/" "$INSTALL_ROOT/home/cc/.thumbnails/normal/"
 
 popd
 
@@ -60,7 +68,7 @@ tar zxvf flickr.tar.gz
 NEWDIR="Flickr.com Interesting photos"
 pushd "$NEWDIR"
 
-pushd "$LIVE_ROOT"/home/cc/Desktop/Image/
+pushd "$INSTALL_ROOT"/home/cc/Desktop/Image/
 ln -s "$OLDPWD"
 popd
 
