@@ -3,8 +3,6 @@ import tempfile
 import os
 import sys
 
-os.unlink = lambda s: sys.stderr.write('removing ' + s + '\n\n')
-
 import genthumb
 
 urls = (
