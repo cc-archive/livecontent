@@ -39,12 +39,12 @@ find -iname \*.jpg -or -iname \*.svg -or -iname \*.png -print0 | xargs -0 -n1 -I
 
 rm -f livecontent.zip
 
-pushd "$LIVE_ROOT"/home/cc/Desktop/Images/
+pushd "$LIVE_ROOT"/home/cc/Desktop/Image/
 ln -s "$OLDPWD"
 
 # For each jpg or svg or png, generate the thumbnail
 find -iname \*.jpg -or -iname \*.svg -or -iname \*.png -print0 | xargs -0 -n1 -I '{}' \
-    python "$LIVE_ROOT"/usr/bin/gen_thumbnails.py '{}' "/home/cc/Desktop/Images/$NEWDIR/" "$LIVE_ROOT/home/cc/.thumbnails/normal/"
+    python "$LIVE_ROOT"/usr/bin/gen_thumbnails.py '{}' "/home/cc/Desktop/Image/$NEWDIR/" "$LIVE_ROOT/home/cc/.thumbnails/normal/"
 
 popd
 
@@ -60,7 +60,7 @@ tar zxvf flickr.tar.gz
 NEWDIR="Flickr.com Interesting photos"
 pushd "$NEWDIR"
 
-pushd "$LIVE_ROOT"/home/cc/Desktop/Images/
+pushd "$LIVE_ROOT"/home/cc/Desktop/Image/
 ln -s "$OLDPWD"
 popd
 
