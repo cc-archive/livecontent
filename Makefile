@@ -16,7 +16,7 @@ hometarball:
 
 clean:
 	# First, umount all the bind mounts.
-    -mount | grep '(bind|loop)' | awk '{print $3}' | sudo xargs umount
+    #mount | grep '(bind|loop)' | awk '{print $3}' | sudo xargs umount
 	#-sudo umount /var/tmp/*
 	#-sudo umount /var/tmp/*/*
 	#-sudo umount /var/tmp/*/*/*
