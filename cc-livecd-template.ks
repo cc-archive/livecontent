@@ -58,6 +58,11 @@ mkdir "$NEWDIR"
 pushd "$NEWDIR"
 wget http://10.0.2.2/~paulproteus/wikimedia-poty/livecontent.zip
 unzip livecontent.zip
+
+# For each jpg or svg or png, generate the thumbnail
+find -iname \*.jpg -or -iname \*.svg -or -iname \*.png -print0 | xargs -0 -n1 -I '{}' \
+    python "$LIVE_ROOT"/usr/local/bin/gen_thumbnails.py '{}' "/mnt/live/content/$NEWDIR/" "$LIVE_ROOT/home/cc/.thumbnails/"
+
 rm -f livecontent.zip
 
 pushd "$LIVE_ROOT"/home/cc/Desktop/Images/
