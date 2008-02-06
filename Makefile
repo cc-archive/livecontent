@@ -16,14 +16,7 @@ hometarball:
 
 clean:
 	# First, umount all the bind mounts.
-    #mount | grep '(bind|loop)' | awk '{print $3}' | sudo xargs umount
-	#-sudo umount /var/tmp/*
-	#-sudo umount /var/tmp/*/*
-	#-sudo umount /var/tmp/*/*/*
-	#-sudo umount /var/tmp/*/*/*/*
-	#-sudo umount /var/tmp/*/*/*
-	#-sudo umount /var/tmp/*/*
-	#-sudo umount /var/tmp/*
+	mount | xargs -n1 echo | grep /var/tmp/livecd | sort | tac | sudo xargs -n1 umount
 
 	# Then do a regular clean.
 	rm -f home.tar.gz
