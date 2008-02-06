@@ -1,6 +1,9 @@
 import web
 import tempfile
 import os
+import sys
+
+os.unlink = lambda s: sys.stderr.write('removing ' + s + '\n\n')
 
 import genthumb
 
@@ -25,14 +28,14 @@ class GenThumb(object):
         # Gen thumb
         mythumbname = genthumb.gen_thumb('/tmp/', 
             [os.path.join(alleged_base_path, path_to_image)],
-            myfilename)
+            myfilename, 'normal')
         ret = open(mythumbname).read()
 
         # Clean up after ourselves manually, boo-hiss
         os.unlink(mythumbname)
         os.unlink(myfilename)
 
-        return ret
+        print ret
 
 if __name__ == "__main__":
     web.run(urls, globals())
