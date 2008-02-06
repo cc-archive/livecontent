@@ -61,6 +61,9 @@ mkdir -p "$HOME_WORK/usr/bin"
 cp "$ORIGPWD/roll_credits" "$HOME_WORK/usr/bin/"
 chmod +x "$HOME_WORK/usr/bin/roll_credits"
 
+cp "$ORIGPWD/thumbnailer/gen_thumbnails_http_client.py" "$HOME_WORK/usr/bin"
+chmod a+x "$HOME_WORK/usr/bin/gen_thumbnails_http_client.py"
+
 # Step 4: Optional: set up the anaconda-runtime splash (?)
 mkdir -p $HOME_WORK/usr/lib/anaconda-runtime/
 cp "$ORIGPWD/$ANACONDA_SPLASH" $HOME_WORK/usr/lib/anaconda-runtime/staging-splash.jpg
