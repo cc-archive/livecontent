@@ -48,7 +48,7 @@ find -iname \*.jpg -or -iname \*.svg -or -iname \*.png -print0 | xargs -0 -n1 -I
 rm -f livecontent.zip
 
 pushd "$INSTALL_ROOT"/home/cc/Desktop/Image/
-ln -s "$OLDPWD"
+ln -sf "/mnt/live/Content/$NEWDIR"
 
 # For each jpg or svg or png, generate the thumbnail
 find -iname \*.jpg -or -iname \*.svg -or -iname \*.png -print0 | xargs -0 -n1 -I '{}' \
