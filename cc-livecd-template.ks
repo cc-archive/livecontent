@@ -61,7 +61,7 @@ popd
 popd
 
 ### Grab Flickr content
-curl 10.0.2.2:8080/make_zip
+curl --max-time 900 10.0.2.2:8080/make_zip
 wget 10.0.2.2:8080/grab_zip -O flickr.tar.gz
 tar zxvf flickr.tar.gz
 
