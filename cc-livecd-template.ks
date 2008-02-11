@@ -38,6 +38,22 @@ pushd "$NEWDIR"
 wget http://10.0.2.2/~paulproteus/wikimedia-poty/livecontent.zip
 unzip livecontent.zip
 
+# Clean up by removing extra "images" directory
+mv images/* .
+rmdir images/
+
+# Post-process by removing licenses we don't know
+
+# We approve of 
+# http://commons.wikimedia.org/wiki/Template:Copyrighted_free_use , 
+# things whose copyright has expired, or No rights reserved stuff.
+for image in $(find -type f -maxdepth 1)
+  do 
+    license=$(grep ^License:  "credits/$image.txt")
+    (echo $license | egrep -q '(Copyrighted_free_use|expired|No rights|creativecommons)' )  || 
+        rm -fv "$image" "credits/$image.txt"
+  done
+
 # Create thumbnail directory
 mkdir -p "$INSTALL_ROOT/home/cc/.thumbnails/normal/"
 
