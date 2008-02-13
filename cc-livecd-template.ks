@@ -85,7 +85,7 @@ NEWDIR="Flickr.com Interesting photos"
 pushd "$NEWDIR"
 
 pushd "$INSTALL_ROOT"/home/cc/Desktop/Image/
-ln -s "$OLDPWD"
+ln -sf "/mnt/live/Content/$NEWDIR"
 popd
 
 popd
