@@ -2,6 +2,668 @@
 <RDF:RDF xmlns:NS1="http://www.mozilla.org/2004/em-rdf#"
          xmlns:NC="http://home.netscape.com/NC-rdf#"
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="rdf:#$oBQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-de@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Deutsch (DE) Language Pack"
+                   NS1:creator="Abdulkadir Topal">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$iCQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$JFQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-eu@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Basque Language Pack"
+                   NS1:creator="librezale.org"
+                   NS1:contributor="Librezale.org">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$6FQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-it@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Italiano (IT) Language Pack"
+                   NS1:creator="mozillaitalia.org - Michele Dal Corso">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Michele Dal Corso</NS1:contributor>
+    <NS1:contributor>Francesco Lodolo</NS1:contributor>
+    <NS1:contributor>Giovanni Francesco Solone</NS1:contributor>
+    <NS1:contributor>Giuliano Masseroni</NS1:contributor>
+    <NS1:contributor>Iacopo Benesperi</NS1:contributor>
+    <NS1:contributor>Victor Lazzaroli</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$lAQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-gu-IN@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Gujarati (IN) Language Pack"
+                   NS1:creator="mozilla.org">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Ankit Patel (www.indianoss.org)</NS1:contributor>
+    <NS1:contributor>Utkarsh Team (www.utkarsh.org)</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$9EQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$HEQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$RCQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-es-AR@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Español (AR) Language Pack"
+                   NS1:creator="mozilla.org">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Marcelo Poli</NS1:contributor>
+    <NS1:contributor>Pablo Lilia</NS1:contributor>
+    <NS1:contributor>Sergio Celani</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$JBQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-mn@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Mongolian Language Pack"
+                   NS1:creator="mozilla.org"
+                   NS1:contributor="Natsagdorj Shagdar">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$3AQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-pt-PT@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Português Portugal Language Pack"
+                   NS1:creator="Projecto de localização do Mozilla para Português">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Artur Araújo</NS1:contributor>
+    <NS1:contributor>Bruno Duarte</NS1:contributor>
+    <NS1:contributor>Carlos Rodrigues</NS1:contributor>
+    <NS1:contributor>Cláudio Esperança</NS1:contributor>
+    <NS1:contributor>Diogo Santos</NS1:contributor>
+    <NS1:contributor>Francisco Castanheiro</NS1:contributor>
+    <NS1:contributor>João Miguel Neves</NS1:contributor>
+    <NS1:contributor>Marco Sousa</NS1:contributor>
+    <NS1:contributor>Pedro Antunes</NS1:contributor>
+    <NS1:contributor>Pedro Figueira</NS1:contributor>
+    <NS1:contributor>Rita Farinha</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$JFQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-bg@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Български Language Pack"
+                   NS1:creator="http://openfmi.net/projects/mozilla-bg">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Огнян Кулев</NS1:contributor>
+    <NS1:contributor>Милен Иванов</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$JAQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-sl@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Slovenski jezik Language Pack"
+                   NS1:creator="mozilla.org">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Aleks Reinhardt</NS1:contributor>
+    <NS1:contributor>Matjaž Horvat</NS1:contributor>
+    <NS1:contributor>Martin Srebotnjak</NS1:contributor>
+    <NS1:contributor>glej Mozilla.Lugos.Si</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$TAQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-ro@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Română (România) Language Pack"
+                   NS1:creator="mozilla.org">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Alexandru Szasz</NS1:contributor>
+    <NS1:contributor>Iulian Ursache-Dogariu</NS1:contributor>
+    <NS1:contributor>Cristian Brînză</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$xCQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-en-GB@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="English (GB) Language Pack"
+                   NS1:creator="Mark Tyndall">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>David Bartlett</NS1:contributor>
+    <NS1:contributor>Constantine Murenin</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$IDQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$5AQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$IDQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$4AQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$ECQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$oCQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-ku@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Kurdish (Ku) Language Pack"
+                   NS1:creator="mozilla.org">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Amed Çeko Jiyan</NS1:contributor>
+    <NS1:contributor>Erdal Ronahi</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$BAQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-es-ES@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Español (España) Language Pack"
+                   NS1:creator="mozilla.org"
+                   NS1:contributor="Proyecto NAVE">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$5AQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-nb-NO@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Norsk bokmål (NO) Language Pack"
+                   NS1:creator="firefox.no">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Pascual Strømsnæs</NS1:contributor>
+    <NS1:contributor>Vidar Braut Haarr</NS1:contributor>
+    <NS1:contributor>Håvar Henriksen</NS1:contributor>
+    <NS1:contributor>Reidar Djupvik</NS1:contributor>
+    <NS1:contributor>Jan-Espen Pettersen</NS1:contributor>
+    <NS1:contributor>Håvard Mork</NS1:contributor>
+    <NS1:contributor>Lasse Marøen</NS1:contributor>
+    <NS1:contributor>Martin Joné</NS1:contributor>
+    <NS1:contributor>Morten Liljegren</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$6BQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-da@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Dansk (da) Language Pack"
+                   NS1:creator="mozilladanmark.dk">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Søren Lønbæk Nygaard Christensen</NS1:contributor>
+    <NS1:contributor>Søren Munk Skrøder</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$7AQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-uk@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Ukrainian (UA) Language Pack"
+                   NS1:creator="Mozilla.org.ua">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$sFQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$sFQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$+EQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:{972ce4c6-7e08-4474-a285-3208198ce6fd}"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0"
+                   NS1:name="Firefox (default)"
+                   NS1:description="The default theme"
+                   NS1:creator="Gerich and Horlander"
+                   NS1:internalName="classic/1.0"
+                   NS1:locked="true"
+                   NS1:appManaged="true"
+                   NS1:contributor="Mozilla Contributors">
+    <NS1:type NC:parseType="Integer">4</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$lGQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:inspector@mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:userDisabled="true"
+                   NS1:version="1.8.1.10"
+                   NS1:name="DOM Inspector"
+                   NS1:description="Inspects the structure and properties of a window and its contents."
+                   NS1:creator="mozilla.org"
+                   NS1:homepageURL="http://www.mozilla.org/projects/inspector/"
+                   NS1:appManaged="true">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$4GQoe2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$5GQoe2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$6GQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-zh-TW@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Traditional Chinese (zh-TW) Language Pack"
+                   NS1:creator="mozilla.org">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Hung-Te Lin(piaip)</NS1:contributor>
+    <NS1:contributor>Wei-Lun Sun(josesun)</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$oBQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$2AQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$dFQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$KCQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-ar@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="العربية (ar) Language Pack"
+                   NS1:creator="Arabeyes.org">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Ayman Hourieh</NS1:contributor>
+    <NS1:contributor>Abdulaziz Al-Arfaj</NS1:contributor>
+    <NS1:contributor>Nadia Alramli</NS1:contributor>
+    <NS1:contributor>Djihed Afifi</NS1:contributor>
+    <NS1:contributor>Nawwar Kabbani</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$4AQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-ka@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Georgian (GE) Language Pack"
+                   NS1:creator="www.gia.ge">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>გია შერვაშიძე</NS1:contributor>
+    <NS1:contributor>გაქართულების ინტერნეტ ალიანსი www.gia.ge</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$tAQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$WDQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-zh-CN@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Chinese Simplified (zh-CN) Language Pack"
+                   NS1:creator="mozilla.org">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Wen Shaohua</NS1:contributor>
+    <NS1:contributor>Rongjun Mu</NS1:contributor>
+    <NS1:contributor>Xie Yanbo</NS1:contributor>
+    <NS1:contributor>Cathayan</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$gBQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-ko@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Korean (KR) Language Pack"
+                   NS1:creator="한글 Mozilla 프로젝트(mozilla.or.kr)">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Seokchan Yun</NS1:contributor>
+    <NS1:contributor>JoungKyun Kim</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$lFQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-ga-IE@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Irish (IE) Language Pack"
+                   NS1:creator="The Irish Mozilla Localisation Team">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Cillian de Roiste</NS1:contributor>
+    <NS1:contributor>Cian Duffy</NS1:contributor>
+    <NS1:contributor>Conor Farrell</NS1:contributor>
+    <NS1:contributor>Marion Gunn</NS1:contributor>
+    <NS1:contributor>Panu Petteri Höglund</NS1:contributor>
+    <NS1:contributor>Brian King</NS1:contributor>
+    <NS1:contributor>Iarla Mac Aodha Bhuí</NS1:contributor>
+    <NS1:contributor>Diarmaid Mac Mathúna</NS1:contributor>
+    <NS1:contributor>Dáithi Mac Sithigh</NS1:contributor>
+    <NS1:contributor>Enda McGuinness</NS1:contributor>
+    <NS1:contributor>Séamus Ó Ciardhuáin</NS1:contributor>
+    <NS1:contributor>Caoimhín Ó Donnaile</NS1:contributor>
+    <NS1:contributor>Tony Pratschke</NS1:contributor>
+    <NS1:contributor>Rüdiger Reinhardt</NS1:contributor>
+    <NS1:contributor>Kevin Scannell</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$6AQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-el@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Greek (GR) Language Pack"
+                   NS1:creator="Kostas Papadimas">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$bCQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$fEQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$JBQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-sv-SE@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Svenska (SE) Language Pack"
+                   NS1:creator="Mozilla-sv">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$KCQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-sk@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Slovak (SK) Language Pack"
+                   NS1:creator="Mozilla.sk"
+                   NS1:contributor="Team Mozilla.sk">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$OEQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-pa-IN@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Punjabi (Gurmukhi) Language Pack"
+                   NS1:creator="mozilla.org">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Amanpreet Singh Alam</NS1:contributor>
+    <NS1:contributor>Punjabi OSRD Lab</NS1:contributor>
+    <NS1:contributor>http://www.satluj.com</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$5CQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$4GQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.10"
+                   NS1:maxVersion="2.0.0.10" />
+  <RDF:Description RDF:about="rdf:#$5CQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-af@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Afrikaans Language Pack"
+                   NS1:creator="Translate.org.za">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Translate.org.za</NS1:contributor>
+    <NS1:contributor>Dwayne Bailey</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$8AQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$5GQoe2"
+                   NS1:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
+                   NS1:minVersion="2.0.0.10pre"
+                   NS1:maxVersion="2.0.0.10pre" />
+  <RDF:Description RDF:about="rdf:#$bCQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$1AQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-pl@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Polski Language Pack"
+                   NS1:creator="aviary.pl">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Zbigniew Braniecki</NS1:contributor>
+    <NS1:contributor>Marek Stępień</NS1:contributor>
+    <NS1:contributor>Piotr Komoda</NS1:contributor>
+    <NS1:contributor>Marek Wawoczny</NS1:contributor>
+    <NS1:contributor>Piotr Bartecki</NS1:contributor>
+    <NS1:contributor>Kornel Misiejuk</NS1:contributor>
+    <NS1:contributor>Wadim Dziedzic</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$+EQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-nl@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Nederlands (NL) Language Pack"
+                   NS1:creator="Mozilla-NL">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Gert-Paul van der Beek</NS1:contributor>
+    <NS1:contributor>Tim Maks van den Broek</NS1:contributor>
+    <NS1:contributor>Laurens Holst</NS1:contributor>
+    <NS1:contributor>Ton Kensen</NS1:contributor>
+    <NS1:contributor>Anne van Kesteren</NS1:contributor>
+    <NS1:contributor>Hendrik Maryns</NS1:contributor>
+    <NS1:contributor>Martijn Ras</NS1:contributor>
+    <NS1:contributor>leden MozBrowser-forum</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$WDQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-cs@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Czech (CZ) Language Pack"
+                   NS1:creator="CZilla.cz"
+                   NS1:contributor="Pavel Franc">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$1AQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-fr@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Français Language Pack"
+                   NS1:creator="L'équipe FrenchMozilla">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Philippe Dessante</NS1:contributor>
+    <NS1:contributor>Benoît Leseul</NS1:contributor>
+    <NS1:contributor>Vincent Béron</NS1:contributor>
+    <NS1:contributor>Cédric Corazza</NS1:contributor>
+    <NS1:contributor>Marie Léger-St-Jean</NS1:contributor>
+    <NS1:contributor>Jérôme Schell</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$ABQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$6BQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$6GQoe2"
+                   NS1:id="{718e30fb-e89b-41dd-9da7-e25a45638b28}"
+                   NS1:minVersion="0.8pre"
+                   NS1:maxVersion="0.8pre" />
+  <RDF:Description RDF:about="rdf:#$3AQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$TAQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-ja@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Japanese Language Pack"
+                   NS1:creator="Mozilla Japan ローカライズセンター">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Atsushi Sakai</NS1:contributor>
+    <NS1:contributor>Hidehiro Kozawa</NS1:contributor>
+    <NS1:contributor>Hideyuki EMURA</NS1:contributor>
+    <NS1:contributor>Hiroshi Sekiya</NS1:contributor>
+    <NS1:contributor>Joji Ikeda</NS1:contributor>
+    <NS1:contributor>Kosuke Kaizuka</NS1:contributor>
+    <NS1:contributor>Makoto Arai</NS1:contributor>
+    <NS1:contributor>Masahiko Imanaka</NS1:contributor>
+    <NS1:contributor>Satoru Yamaguchi</NS1:contributor>
+    <NS1:contributor>Shaw Hosaka</NS1:contributor>
+    <NS1:contributor>Shigeki Narisawa</NS1:contributor>
+    <NS1:contributor>Tomoya Asai</NS1:contributor>
+    <NS1:contributor>Toshiyuki Oka</NS1:contributor>
+    <NS1:contributor>Youhei Tooyama</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$HEQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$6FQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$9EQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$7AQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$tAQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-ca@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Català  Language Pack"
+                   NS1:creator="Mozilla.org / Softcatalà"
+                   NS1:contributor="Softcatalà">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$1EQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-he@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Hebrew (IL) Language Pack"
+                   NS1:creator="mozilla.org">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Reuven Gonen</NS1:contributor>
+    <NS1:contributor>Tsahi Asher</NS1:contributor>
+    <NS1:contributor>Tomer Cohen</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$9AQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-fi@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Suomenkielinen (FI) Language Pack"
+                   NS1:creator="Mozilla.fi">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$fEQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$1EQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$nEQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$8AQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$BAQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$9AQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-tr@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Türkçe (TR) Language Pack"
+                   NS1:creator="mozilla.org"
+                   NS1:contributor="Mozilla Türkiye Takımı">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$bDQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$gBQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-pt-BR@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Português Brasileiro Language Pack"
+                   NS1:creator="http://br.mozdev.org">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$oCQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$OEQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-be@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Беларуская Language Pack"
+                   NS1:creator="mozilla.org"
+                   NS1:contributor="mozilla by">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$dFQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-hu@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Magyar (HU)  Language Pack"
+                   NS1:creator="mozilla.org"
+                   NS1:contributor="FSF.hu Alapítvány">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$ECQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$bDQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$lFQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$lAQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$iCQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.4"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$lGQoe2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0.0.10"
+                   NS1:maxVersion="2.0.0.10" />
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-mk@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="\u041C\u0430\u043A\u0435\u0434\u043E\u043D\u0441\u043A\u0438 \u0458\u0430\u0437\u0438\u043A Language Pack"
+                   NS1:creator="mozilla.softver.org.mk">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Новица Наков</NS1:contributor>
+    <NS1:contributor>Дамјан Георгиевски</NS1:contributor>
+    <NS1:contributor>Георги Станојевски</NS1:contributor>
+    <NS1:contributor>Арангел Ангов</NS1:contributor>
+    <NS1:contributor>Владимир Стефанов</NS1:contributor>
+    <NS1:contributor>Томислав Марковски</NS1:contributor>
+    <NS1:contributor>Иван Стојмиров</NS1:contributor>
+    <NS1:contributor>Игор Стаматовски</NS1:contributor>
+    <NS1:contributor>Видете mozilla.softver.org.mk</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$YBQoe2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-lt@firefox.mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0.0.10"
+                   NS1:name="Lithuanian (LT) Language Pack"
+                   NS1:creator="Matematikos ir informatikos institutas">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:contributor>Gintautas Grigas</NS1:contributor>
+    <NS1:contributor>Tatjana Jevsikova</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$nEQoe2"/>
+  </RDF:Description>
   <RDF:Seq RDF:about="urn:mozilla:item:root">
     <RDF:li RDF:resource="urn:mozilla:item:langpack-mk@firefox.mozilla.org"/>
     <RDF:li RDF:resource="urn:mozilla:item:langpack-af@firefox.mozilla.org"/>
@@ -46,50 +708,12 @@
     <RDF:li RDF:resource="urn:mozilla:item:langpack-be@firefox.mozilla.org"/>
     <RDF:li RDF:resource="urn:mozilla:item:langpack-bg@firefox.mozilla.org"/>
     <RDF:li RDF:resource="urn:mozilla:item:langpack-ar@firefox.mozilla.org"/>
+    <RDF:li RDF:resource="urn:mozilla:item:langpack-pt-PT@firefox.mozilla.org"/>
+    <RDF:li RDF:resource="urn:mozilla:item:langpack-uk@firefox.mozilla.org"/>
   </RDF:Seq>
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-da@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Dansk (da) Language Pack"
-                   NS1:creator="mozilladanmark.dk">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>Søren Lønbæk Nygaard Christensen</NS1:contributor>
-    <NS1:contributor>Søren Munk Skrøder</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$+M.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$AN.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-mn@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Mongolian Language Pack"
-                   NS1:creator="mozilla.org"
-                   NS1:contributor="Natsagdorj Shagdar">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$XM.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$EP.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="rdf:#$RP.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-tr@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Türkçe (TR) Language Pack"
-                   NS1:creator="mozilla.org"
-                   NS1:contributor="Mozilla Türkiye Takımı">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$iQ.OD3"/>
-  </RDF:Description>
   <RDF:Description RDF:about="urn:mozilla:item:langpack-nn-NO@firefox.mozilla.org"
                    NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
+                   NS1:version="2.0.0.10"
                    NS1:name="Norsk nynorsk (NO) Language Pack"
                    NS1:creator="firefox.no">
     <NS1:type NC:parseType="Integer">8</NS1:type>
@@ -105,621 +729,34 @@
     <NS1:contributor>Håvard Mork</NS1:contributor>
     <NS1:contributor>Jan-Espen Pettersen</NS1:contributor>
     <NS1:contributor>Pascual Strømsnæs</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$WM.OD3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$2AQoe2"/>
   </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$.M.OD3"
+  <RDF:Description RDF:about="rdf:#$xCQoe2"
                    NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    NS1:minVersion="2.0.0.4"
                    NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="rdf:#$dS.OD3"
+  <RDF:Description RDF:about="rdf:#$JAQoe2"
                    NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    NS1:minVersion="2.0.0.4"
                    NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-be@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Беларуская Language Pack"
-                   NS1:creator="mozilla.org"
-                   NS1:contributor="mozilla by">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$kS.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-mk@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="\u041C\u0430\u043A\u0435\u0434\u043E\u043D\u0441\u043A\u0438 \u0458\u0430\u0437\u0438\u043A Language Pack"
-                   NS1:creator="mozilla.softver.org.mk">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>Новица Наков</NS1:contributor>
-    <NS1:contributor>Дамјан Георгиевски</NS1:contributor>
-    <NS1:contributor>Георги Станојевски</NS1:contributor>
-    <NS1:contributor>Арангел Ангов</NS1:contributor>
-    <NS1:contributor>Владимир Стефанов</NS1:contributor>
-    <NS1:contributor>Томислав Марковски</NS1:contributor>
-    <NS1:contributor>Иван Стојмиров</NS1:contributor>
-    <NS1:contributor>Игор Стаматовски</NS1:contributor>
-    <NS1:contributor>Видете mozilla.softver.org.mk</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$3P.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-bg@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Български Language Pack"
-                   NS1:creator="http://openfmi.net/projects/mozilla-bg">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>Огнян Кулев</NS1:contributor>
-    <NS1:contributor>Милен Иванов</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$QN.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$vP.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="rdf:#$XM.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-ja@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Japanese Language Pack"
-                   NS1:creator="Mozilla Japan ローカライズセンター">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>Atsushi Sakai</NS1:contributor>
-    <NS1:contributor>Hidehiro Kozawa</NS1:contributor>
-    <NS1:contributor>Hideyuki EMURA</NS1:contributor>
-    <NS1:contributor>Hiroshi Sekiya</NS1:contributor>
-    <NS1:contributor>Joji Ikeda</NS1:contributor>
-    <NS1:contributor>Kosuke Kaizuka</NS1:contributor>
-    <NS1:contributor>Makoto Arai</NS1:contributor>
-    <NS1:contributor>Masahiko Imanaka</NS1:contributor>
-    <NS1:contributor>Satoru Yamaguchi</NS1:contributor>
-    <NS1:contributor>Shaw Hosaka</NS1:contributor>
-    <NS1:contributor>Shigeki Narisawa</NS1:contributor>
-    <NS1:contributor>Tomoya Asai</NS1:contributor>
-    <NS1:contributor>Toshiyuki Oka</NS1:contributor>
-    <NS1:contributor>Youhei Tooyama</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$OR.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-el@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Greek (GR) Language Pack"
-                   NS1:creator="Kostas Papadimas">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$iP.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$QN.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-pa-IN@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Punjabi (Gurmukhi) Language Pack"
-                   NS1:creator="mozilla.org">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>Amanpreet Singh Alam</NS1:contributor>
-    <NS1:contributor>Punjabi OSRD Lab</NS1:contributor>
-    <NS1:contributor>http://www.satluj.com</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$cP.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-ca@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Català  Language Pack"
-                   NS1:creator="Mozilla.org / Softcatalà"
-                   NS1:contributor="Softcatalà">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$8R.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$+M.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-cs@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Czech (CZ) Language Pack"
-                   NS1:creator="CZilla.cz"
-                   NS1:contributor="Pavel Franc">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$VM.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-zh-TW@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Traditional Chinese (zh-TW) Language Pack"
-                   NS1:creator="mozilla.org">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>Hung-Te Lin(piaip)</NS1:contributor>
-    <NS1:contributor>Wei-Lun Sun(josesun)</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$vO.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$kS.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="rdf:#$VM.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="rdf:#$vO.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="rdf:#$dO.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-nb-NO@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Norsk bokmål (NO) Language Pack"
-                   NS1:creator="firefox.no">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>Pascual Strømsnæs</NS1:contributor>
-    <NS1:contributor>Vidar Braut Haarr</NS1:contributor>
-    <NS1:contributor>Håvar Henriksen</NS1:contributor>
-    <NS1:contributor>Reidar Djupvik</NS1:contributor>
-    <NS1:contributor>Jan-Espen Pettersen</NS1:contributor>
-    <NS1:contributor>Håvard Mork</NS1:contributor>
-    <NS1:contributor>Lasse Marøen</NS1:contributor>
-    <NS1:contributor>Martin Joné</NS1:contributor>
-    <NS1:contributor>Morten Liljegren</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$dO.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$LP.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="rdf:#$gR.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="rdf:#$GQ.OD3"
-                   NS1:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
-                   NS1:minVersion="2.0.0.4pre"
-                   NS1:maxVersion="2.0.0.4pre" />
-  <RDF:Description RDF:about="rdf:#$1R.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="rdf:#$YP.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-pt-BR@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Português Brasileiro Language Pack"
-                   NS1:creator="http://br.mozdev.org">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$vP.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$QO.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-sl@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Slovenski jezik Language Pack"
-                   NS1:creator="mozilla.org">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>Aleks Reinhardt</NS1:contributor>
-    <NS1:contributor>Matjaž Horvat</NS1:contributor>
-    <NS1:contributor>Martin Srebotnjak</NS1:contributor>
-    <NS1:contributor>glej Mozilla.Lugos.Si</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$.N.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$gN.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="rdf:#$pP.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-fr@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Français Language Pack"
-                   NS1:creator="L'équipe FrenchMozilla">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>Philippe Dessante</NS1:contributor>
-    <NS1:contributor>Benoît Leseul</NS1:contributor>
-    <NS1:contributor>Vincent Béron</NS1:contributor>
-    <NS1:contributor>Cédric Corazza</NS1:contributor>
-    <NS1:contributor>Marie Léger-St-Jean</NS1:contributor>
-    <NS1:contributor>Jérôme Schell</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$HO.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-gu-IN@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Gujarati (IN) Language Pack"
-                   NS1:creator="mozilla.org">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>Ankit Patel (www.indianoss.org)</NS1:contributor>
-    <NS1:contributor>Utkarsh Team (www.utkarsh.org)</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$gR.OD3"/>
-  </RDF:Description>
   <RDF:Description RDF:about="urn:mozilla:item:langpack-ru@firefox.mozilla.org"
                    NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
+                   NS1:version="2.0.0.10"
                    NS1:name="Russian (RU) Language Pack"
                    NS1:creator="Mozilla.ru"
                    NS1:contributor="Александр Словесник">
     <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$YP.OD3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$RCQoe2"/>
   </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$cP.OD3"
+  <RDF:Description RDF:about="rdf:#$YBQoe2"
                    NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    NS1:minVersion="2.0.0.4"
                    NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="rdf:#$bQ.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.4" />
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-hu@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Magyar (HU)  Language Pack"
-                   NS1:creator="mozilla.org"
-                   NS1:contributor="FSF.hu Alapítvány">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$LP.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$sN.OD3"
+  <RDF:Description RDF:about="rdf:#$6AQoe2"
                    NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    NS1:minVersion="2.0.0.4"
                    NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="rdf:#$FQ.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.4" />
-  <RDF:Description RDF:about="rdf:#$YM.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-lt@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Lithuanian (LT) Language Pack"
-                   NS1:creator="Matematikos ir informatikos institutas">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>Gintautas Grigas</NS1:contributor>
-    <NS1:contributor>Tatjana Jevsikova</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$uR.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$OR.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="rdf:#$iQ.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-sv-SE@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Svenska (SE) Language Pack"
-                   NS1:creator="Mozilla-sv">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$RP.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$HQ.OD3"
-                   NS1:id="{718e30fb-e89b-41dd-9da7-e25a45638b28}"
-                   NS1:minVersion="0.5pre"
-                   NS1:maxVersion="0.5pre" />
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-es-AR@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Español (AR) Language Pack"
-                   NS1:creator="mozilla.org">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>Marcelo Poli</NS1:contributor>
-    <NS1:contributor>Pablo Lilia</NS1:contributor>
-    <NS1:contributor>Sergio Celani</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$QO.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-he@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Hebrew (IL) Language Pack"
-                   NS1:creator="mozilla.org">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>Reuven Gonen</NS1:contributor>
-    <NS1:contributor>Tsahi Asher</NS1:contributor>
-    <NS1:contributor>Tomer Cohen</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$gN.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-it@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Italiano (IT) Language Pack"
-                   NS1:creator="mozillaitalia.org - Michele Dal Corso">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>Michele Dal Corso</NS1:contributor>
-    <NS1:contributor>Francesco Lodolo</NS1:contributor>
-    <NS1:contributor>Giovanni Francesco Solone</NS1:contributor>
-    <NS1:contributor>Giuliano Masseroni</NS1:contributor>
-    <NS1:contributor>Iacopo Benesperi</NS1:contributor>
-    <NS1:contributor>Victor Lazzaroli</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$sN.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-ku@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Kurdish (Ku) Language Pack"
-                   NS1:creator="mozilla.org">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>Amed Çeko Jiyan</NS1:contributor>
-    <NS1:contributor>Erdal Ronahi</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$IN.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-sk@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Slovak (SK) Language Pack"
-                   NS1:creator="Mozilla.sk"
-                   NS1:contributor="Team Mozilla.sk">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$VR.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-zh-CN@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Chinese Simplified (zh-CN) Language Pack"
-                   NS1:creator="mozilla.org">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>Wen Shaohua</NS1:contributor>
-    <NS1:contributor>Rongjun Mu</NS1:contributor>
-    <NS1:contributor>Xie Yanbo</NS1:contributor>
-    <NS1:contributor>Cathayan</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$nO.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$iP.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="rdf:#$IN.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="rdf:#$PQ.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="urn:mozilla:item:{972ce4c6-7e08-4474-a285-3208198ce6fd}"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0"
-                   NS1:name="Firefox (default)"
-                   NS1:description="The default theme"
-                   NS1:creator="Gerich and Horlander"
-                   NS1:internalName="classic/1.0"
-                   NS1:locked="true"
-                   NS1:appManaged="true"
-                   NS1:contributor="Mozilla Contributors">
-    <NS1:type NC:parseType="Integer">4</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$bQ.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:inspector@mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:userDisabled="true"
-                   NS1:version="1.8.1.4"
-                   NS1:name="DOM Inspector"
-                   NS1:description="Inspects the structure and properties of a window and its contents."
-                   NS1:creator="mozilla.org"
-                   NS1:homepageURL="http://www.mozilla.org/projects/inspector/"
-                   NS1:appManaged="true">
-    <NS1:type NC:parseType="Integer">2</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$FQ.OD3"/>
-    <NS1:targetApplication RDF:resource="rdf:#$GQ.OD3"/>
-    <NS1:targetApplication RDF:resource="rdf:#$HQ.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$uR.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="rdf:#$mR.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="rdf:#$8R.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="rdf:#$6S.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="rdf:#$sS.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="rdf:#$nO.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-pl@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Polski Language Pack"
-                   NS1:creator="aviary.pl">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>Zbigniew Braniecki</NS1:contributor>
-    <NS1:contributor>Marek Stępień</NS1:contributor>
-    <NS1:contributor>Piotr Komoda</NS1:contributor>
-    <NS1:contributor>Marek Wawoczny</NS1:contributor>
-    <NS1:contributor>Piotr Bartecki</NS1:contributor>
-    <NS1:contributor>Kornel Misiejuk</NS1:contributor>
-    <NS1:contributor>Wadim Dziedzic</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$6S.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$VR.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="rdf:#$7N.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-ko@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Korean (KR) Language Pack"
-                   NS1:creator="한글 Mozilla 프로젝트(mozilla.or.kr)">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>Seokchan Yun</NS1:contributor>
-    <NS1:contributor>JoungKyun Kim</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$sS.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-es-ES@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Español (España) Language Pack"
-                   NS1:creator="mozilla.org"
-                   NS1:contributor="Proyecto NAVE">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$ZM.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$ZM.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-en-GB@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="English (GB) Language Pack"
-                   NS1:creator="Mark Tyndall">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>David Bartlett</NS1:contributor>
-    <NS1:contributor>Constantine Murenin</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$PQ.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$HO.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-ar@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="العربية (ar) Language Pack"
-                   NS1:creator="Arabeyes.org">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>Ayman Hourieh</NS1:contributor>
-    <NS1:contributor>Abdulaziz Al-Arfaj</NS1:contributor>
-    <NS1:contributor>Nadia Alramli</NS1:contributor>
-    <NS1:contributor>Djihed Afifi</NS1:contributor>
-    <NS1:contributor>Nawwar Kabbani</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$YM.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-ka@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Georgian (GE) Language Pack"
-                   NS1:creator="www.gia.ge">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>გია შერვაშიძე</NS1:contributor>
-    <NS1:contributor>გაქართულების ინტერნეტ ალიანსი www.gia.ge</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$AN.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-de@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Deutsch (DE) Language Pack"
-                   NS1:creator="Abdulkadir Topal">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$pP.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-af@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Afrikaans Language Pack"
-                   NS1:creator="Translate.org.za">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>Translate.org.za</NS1:contributor>
-    <NS1:contributor>Dwayne Bailey</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$7N.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-ga-IE@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Irish (IE) Language Pack"
-                   NS1:creator="The Irish Mozilla Localisation Team">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>Cillian de Roiste</NS1:contributor>
-    <NS1:contributor>Cian Duffy</NS1:contributor>
-    <NS1:contributor>Conor Farrell</NS1:contributor>
-    <NS1:contributor>Marion Gunn</NS1:contributor>
-    <NS1:contributor>Panu Petteri Höglund</NS1:contributor>
-    <NS1:contributor>Brian King</NS1:contributor>
-    <NS1:contributor>Iarla Mac Aodha Bhuí</NS1:contributor>
-    <NS1:contributor>Diarmaid Mac Mathúna</NS1:contributor>
-    <NS1:contributor>Dáithi Mac Sithigh</NS1:contributor>
-    <NS1:contributor>Enda McGuinness</NS1:contributor>
-    <NS1:contributor>Séamus Ó Ciardhuáin</NS1:contributor>
-    <NS1:contributor>Caoimhín Ó Donnaile</NS1:contributor>
-    <NS1:contributor>Tony Pratschke</NS1:contributor>
-    <NS1:contributor>Rüdiger Reinhardt</NS1:contributor>
-    <NS1:contributor>Kevin Scannell</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$.M.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-nl@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Nederlands (NL) Language Pack"
-                   NS1:creator="Mozilla-NL">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>Gert-Paul van der Beek</NS1:contributor>
-    <NS1:contributor>Tim Maks van den Broek</NS1:contributor>
-    <NS1:contributor>Laurens Holst</NS1:contributor>
-    <NS1:contributor>Ton Kensen</NS1:contributor>
-    <NS1:contributor>Anne van Kesteren</NS1:contributor>
-    <NS1:contributor>Hendrik Maryns</NS1:contributor>
-    <NS1:contributor>Martijn Ras</NS1:contributor>
-    <NS1:contributor>leden MozBrowser-forum</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$1R.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-eu@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Basque Language Pack"
-                   NS1:creator="librezale.org"
-                   NS1:contributor="Librezale.org">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$dS.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-fi@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Suomenkielinen (FI) Language Pack"
-                   NS1:creator="Mozilla.fi">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$mR.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$.N.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-ro@firefox.mozilla.org"
-                   NS1:installLocation="app-global"
-                   NS1:version="2.0.0.4"
-                   NS1:name="Română (România) Language Pack"
-                   NS1:creator="mozilla.org">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:contributor>Alexandru Szasz</NS1:contributor>
-    <NS1:contributor>Iulian Ursache-Dogariu</NS1:contributor>
-    <NS1:contributor>Cristian Brînză</NS1:contributor>
-    <NS1:targetApplication RDF:resource="rdf:#$EP.OD3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$WM.OD3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="2.0.0.4"
-                   NS1:maxVersion="2.0.0.*" />
-  <RDF:Description RDF:about="rdf:#$3P.OD3"
+  <RDF:Description RDF:about="rdf:#$ABQoe2"
                    NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    NS1:minVersion="2.0.0.4"
                    NS1:maxVersion="2.0.0.*" />

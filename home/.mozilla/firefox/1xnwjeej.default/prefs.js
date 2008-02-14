@@ -9,10 +9,10 @@
  * For more information, see http://www.mozilla.org/unix/customizing.html#prefs
  */
 
-user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1184965873);
-user_pref("app.update.lastUpdateTime.background-update-timer", 1184965873);
-user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1184965873);
-user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1184965873);
+user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1203027659);
+user_pref("app.update.lastUpdateTime.background-update-timer", 1203027659);
+user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1203027659);
+user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1203027659);
 user_pref("browser.bookmarks.sort.resource", "rdf:http://home.netscape.com/NC-rdf#URL");
 user_pref("browser.download.lastDir", "/home/cc/images");
 user_pref("browser.download.manager.showWhenStarting", false);
@@ -22,8 +22,8 @@ user_pref("browser.preferences.advanced.selectedTabIndex", 3);
 user_pref("browser.search.update", false);
 user_pref("browser.search.useDBForOrder", true);
 user_pref("browser.startup.homepage", "file:///home/cc/index.html");
-user_pref("browser.startup.homepage_override.mstone", "rv:1.8.1.4");
-user_pref("extensions.lastAppVersion", "2.0.0.4");
+user_pref("browser.startup.homepage_override.mstone", "rv:1.8.1.10");
+user_pref("extensions.lastAppVersion", "2.0.0.10");
 user_pref("extensions.update.enabled", false);
 user_pref("extensions.update.notifyUser", false);
 user_pref("intl.charsetmenu.browser.cache", "ISO-8859-1, UTF-8, ISO-8859-2, us-ascii");
