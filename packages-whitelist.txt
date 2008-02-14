@@ -466,3 +466,4 @@ jokosher
 gedit
 cups
 tuxpaint
+openssh-clients
