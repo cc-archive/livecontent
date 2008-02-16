@@ -13,7 +13,7 @@ xconfig --startxonboot
 
 # Below hack necessary to get the CD to boot on a CC Dell.
 # I can't believe it's 2008 and I'm still doing this.
-bootloader --append "noapic"
+bootloader --append="noapic"
 # </hack>
 
 services --enabled=NetworkManager --disabled=network
