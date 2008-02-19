@@ -111,13 +111,13 @@ popd
 rm -f simuze.tar.gz
 
 ### MIT OCW top 10 courses
-wget 10.0.2.2/~paulproteus/livecontent/mit-ocw.tar.gz
-NEWDIR="MIT OCW Top Ten Downloaded Courses"
-tar zxvf mit-ocw.tar.gz
-pushd "$INSTALL_ROOT/home/cc/Desktop/Education"
-ln -sf "/mnt/live/Content/$NEWDIR"
-popd
-rm -f mit-ocw.tar.gz
+#wget 10.0.2.2/~paulproteus/livecontent/mit-ocw.tar.gz
+#NEWDIR="MIT OCW Top Ten Downloaded Courses"
+#tar zxvf mit-ocw.tar.gz
+#pushd "$INSTALL_ROOT/home/cc/Desktop/Education"
+#ln -sf "/mnt/live/Content/$NEWDIR"
+#popd
+#rm -f mit-ocw.tar.gz
 
 ### Assorted Text
 mkdir Text
