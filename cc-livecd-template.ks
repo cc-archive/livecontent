@@ -92,6 +92,67 @@ popd
 
 rm -f flickr.tar.gz
 
+### Jamendo music
+NEWDIR="Jamendo"
+wget 10.0.2.2/~paulproteus/livecontent/jamendo.tar.gz
+tar zxvf jamendo.tar.gz
+pushd "$INSTALL_ROOT"/home/cc/Desktop/Audio/
+ln -sf "/mnt/live/Content/$NEWDIR"
+popd
+rm -f jamendo.tar.gz
+
+### Simuze.nl music
+wget 10.0.2.2/~paulproteus/livecontent/simuze.tar.gz
+NEWDIR="Simuze.nl"
+tar zxvf simuze.tar.gz
+pushd "$INSTALL_ROOT"/home/cc/Desktop/Audio
+ln -sf "/mnt/live/Content/$NEWDIR"
+popd
+rm -f simuze.tar.gz
+
+### MIT OCW top 10 courses
+wget 10.0.2.2/~paulproteus/livecontent/mit-ocw.tar.gz
+NEWDIR="MIT OCW Top Ten Downloaded Courses"
+tar zxvf mit-ocw.tar.gz
+pushd "$INSTALL_ROOT/home/cc/Desktop/Education"
+ln -sf "/mnt/live/Content/$NEWDIR"
+popd
+rm -f mit-ocw.tar.gz
+
+### Assorted Text
+mkdir Text
+NEWDIR="Text"
+    pushd $NEWDIR
+    wget 10.0.2.2/~paulproteus/livecontent/assorted-text.tar.gz
+    tar zxvf assorted-text.tar.gz
+    rm -f assorted-text.tar.gz
+    for thing in *
+    do
+        pushd "$INSTALL_ROOT/home/cc/Desktop/Text"
+        ln -s "/mnt/live/Content/Text/$thing"
+        popd
+    done
+    popd
+
+### Assorted Video
+NEWDIR="Video"
+mkdir "$NEWDIR"
+    pushd $NEWDIR
+    wget 10.0.2.2/~paulproteus/livecontent/assorted-video.tar.gz
+    tar zxvf assorted-video.tar.gz
+    rm -f assorted-video.tar.gz
+    for thing in *
+    do
+        pushd "$INSTALL_ROOT/home/cc/Desktop/$NEWDIR"
+        ln -s "/mnt/live/Content/$NEWDIR/$thing"
+        popd
+    done
+    popd
+
+    
+
+
+
 ### FIXME: Fix thumbnails
 %end
 
