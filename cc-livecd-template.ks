@@ -59,7 +59,7 @@ mkdir -p "$INSTALL_ROOT/home/cc/.thumbnails/normal/"
 
 # For each jpg or svg or png, generate the thumbnail
 find -iname \*.jpg -or -iname \*.svg -or -iname \*.png -print0 | xargs -0 -n1 -I '{}' \
-    python "$INSTALL_ROOT"/usr/bin/gen_thumbnails.py '{}' "/mnt/live/Content/$NEWDIR/" "$INSTALL_ROOT/home/cc/.thumbnails/normal/"
+    python "$INSTALL_ROOT"/usr/bin/gen_thumbnails_http_client.py '{}' "/mnt/live/Content/$NEWDIR/" "$INSTALL_ROOT/home/cc/.thumbnails/normal/"
 
 rm -f livecontent.zip
 
@@ -68,7 +68,7 @@ ln -sf "/mnt/live/Content/$NEWDIR"
 
 # For each jpg or svg or png, generate the thumbnail
 find -iname \*.jpg -or -iname \*.svg -or -iname \*.png -print0 | xargs -0 -n1 -I '{}' \
-    python "$INSTALL_ROOT"/usr/bin/gen_thumbnails.py '{}' "/home/cc/Desktop/Image/$NEWDIR/" "$INSTALL_ROOT/home/cc/.thumbnails/normal/"
+    python "$INSTALL_ROOT"/usr/bin/gen_thumbnails_http_client.py '{}' "/home/cc/Desktop/Image/$NEWDIR/" "$INSTALL_ROOT/home/cc/.thumbnails/normal/"
 
 popd
 
