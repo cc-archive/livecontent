@@ -116,7 +116,7 @@ echo "cc-home" >> cc-livecd.ks
 echo "%end"                           >> cc-livecd.ks # for future kickstart
 echo "Estimating total size."
 echo "Building CD."
-sudo livecd-creator --config cc-livecd.ks --fslabel=ccLiveContent' '2.0
+sudo livecd-creator --config cc-livecd.ks --fslabel=ccLiveContent-2.0
 
 for thing in *.iso
 do
