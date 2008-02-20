@@ -54,25 +54,23 @@ for image in $(find -type f -maxdepth 1)
         rm -fv "$image" "credits/$image.txt"
   done
 
-# Create thumbnail directory
-mkdir -p "$INSTALL_ROOT/home/cc/.thumbnails/normal/"
-
+## Create thumbnail directory
+#mkdir -p "$INSTALL_ROOT/home/cc/.thumbnails/normal/"
+#
 # For each jpg or svg or png, generate the thumbnail
-find -iname \*.jpg -or -iname \*.svg -or -iname \*.png -print0 | xargs -0 -n1 -I '{}' \
-    python "$INSTALL_ROOT"/usr/bin/gen_thumbnails_http_client.py '{}' "/mnt/live/Content/$NEWDIR/" "$INSTALL_ROOT/home/cc/.thumbnails/normal/"
+#find -iname \*.jpg -or -iname \*.svg -or -iname \*.png -print0 | xargs -0 -n1 -I '{}' \
+#    python "$INSTALL_ROOT"/usr/bin/gen_thumbnails_http_client.py '{}' "/mnt/live/Content/$NEWDIR/" "$INSTALL_ROOT/home/cc/.thumbnails/normal/"
 
 rm -f livecontent.zip
 
 pushd "$INSTALL_ROOT"/home/cc/Desktop/Image/
 ln -sf "/mnt/live/Content/$NEWDIR"
 
-# For each jpg or svg or png, generate the thumbnail
-find -iname \*.jpg -or -iname \*.svg -or -iname \*.png -print0 | xargs -0 -n1 -I '{}' \
-    python "$INSTALL_ROOT"/usr/bin/gen_thumbnails_http_client.py '{}' "/home/cc/Desktop/Image/$NEWDIR/" "$INSTALL_ROOT/home/cc/.thumbnails/normal/"
+## For each jpg or svg or png, generate the thumbnail
+#find -iname \*.jpg -or -iname \*.svg -or -iname \*.png -print0 | xargs -0 -n1 -I '{}' \
+#    python "$INSTALL_ROOT"/usr/bin/gen_thumbnails_http_client.py '{}' "/home/cc/Desktop/Image/$NEWDIR/" "$INSTALL_ROOT/home/cc/.thumbnails/normal/"
 
 popd
-
-### FIXME: Fix thumbnails
 
 popd
 
@@ -149,11 +147,13 @@ mkdir "$NEWDIR"
     done
     popd
 
-    
+### Download thumbnails
+pushd "$INSTALL_ROOT/home/cc"
+wget 10.0.2.2/~paulproteus/livecontent/thumbs.tar.gz
+tar zxvf thumbs.tar.gz
+rm -f thumbs.tar.gz
+popd
 
-
-
-### FIXME: Fix thumbnails
 %end
 
 %post
